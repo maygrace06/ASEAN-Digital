@@ -27,6 +27,17 @@ def test_deadline_extraction():
     assert C.find_deadline("Deadline: 16-Oct-2026") == "2026-10-16"
     assert C.find_deadline("Applications close on January 7, 2027.") == "2027-01-07"
     assert C.find_deadline("Apply Before: 30 October 2026") == "2026-10-30"
+    # fundsforNGOs style, and a few words between keyword and date
+    assert C.find_deadline("Deadline Date: March 31, 2026 The 4th China-ASEAN ...") == "2026-03-31"
+    assert C.find_deadline("The deadline for submissions is 27 November 2026 at 4:00 p.m.") == "2026-11-27"
+    # weak keywords stay strict: a date far after "by" is not a deadline
+    assert C.find_deadline("Organised by the ASEAN Foundation since 2020-01-01") is None
+
+
+def test_clean_text_unescapes_html_entities():
+    from tracker.utils import clean_text
+    assert clean_text("Innovation &#38; Entrepreneurship &#8230; Read More &#187;") == \
+        "Innovation & Entrepreneurship … Read More »"
 
 
 def test_classify_scores_asean_ai():

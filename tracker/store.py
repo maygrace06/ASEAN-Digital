@@ -6,7 +6,7 @@ from datetime import date, datetime, timedelta
 
 from .classify import compute_status, setting
 from .models import Opportunity
-from .utils import ROOT, load_yaml, today
+from .utils import ROOT, find_deadline, load_yaml, today
 
 DB = ROOT / "data" / "opportunities.json"
 STATE = ROOT / "data" / "state.json"
@@ -70,6 +70,10 @@ def refresh_and_prune(db: dict[str, Opportunity]) -> None:
     cutoff = today() - timedelta(days=keep_days)
     for oid in list(db):
         o = db[oid]
+        # Re-read stored text so date-parsing improvements also fix older items
+        # (ones no longer in their source's feed).
+        if not o.deadline:
+            o.deadline = find_deadline(f"{o.title} \n {o.summary} \n {o.eligibility} \n {o.requirements}")
         o.status = compute_status(o)
         last = o.deadline or o.last_seen or o.first_seen
         if o.status == "closed" and oid not in pipeline and last and date.fromisoformat(last) < cutoff:

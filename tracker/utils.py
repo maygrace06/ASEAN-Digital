@@ -1,6 +1,7 @@
 """Shared helpers: config loading, HTTP, dates, text cleanup."""
 from __future__ import annotations
 
+import html
 import logging
 import re
 from datetime import date, datetime, timezone
@@ -87,8 +88,12 @@ _DATE_RX = (
     rf"|\d{{1,2}}/\d{{1,2}}/\d{{4}})"                     # 16/10/2026
 )
 DEADLINE_RX = re.compile(
-    rf"(?:deadline|closing date|closes?|due date|apply before|submission[s]? (?:due|by)|"
-    rf"applications? (?:due|close)|until|by)\s*[:\-–]?\s*(?:is|on)?\s*{_DATE_RX}",
+    # Strong keywords may have a few words before the date:
+    #   "Deadline Date: March 31, 2026", "deadline for submissions is 27 November 2026"
+    rf"(?:(?:deadline|closing date|closes?|due date|apply before|submission[s]? (?:due|by)|"
+    rf"applications? (?:due|close))[^.!?\d]{{0,50}}?"
+    # Weak keywords must be right before the date: "until 5 May 2026", "by 1 June 2026"
+    rf"|(?:until|by)\s*[:\-–]?\s*(?:is|on)?\s*){_DATE_RX}",
     re.I,
 )
 OPEN_RX = re.compile(rf"(?:opens?|opening date|start date|launch(?:ed)?|published|posted)\s*[:\-–]?\s*(?:on)?\s*{_DATE_RX}", re.I)
@@ -108,8 +113,7 @@ def clean_text(html_or_text: str, limit: int = 1200) -> str:
     if not html_or_text:
         return ""
     txt = re.sub(r"<[^>]+>", " ", str(html_or_text))
-    txt = re.sub(r"&nbsp;|&#160;", " ", txt)
-    txt = re.sub(r"&amp;", "&", txt)
+    txt = html.unescape(txt).replace("\xa0", " ")   # &#38; -> &, &#8230; -> …, &nbsp; -> space
     txt = re.sub(r"\s+", " ", txt).strip()
     return txt[:limit]
 

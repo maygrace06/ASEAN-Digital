@@ -5,7 +5,7 @@
   "source": "worldbank",
   "kind": "tender",
   "funder": "World Bank – Philippines Digital Infrastructure Project",
-  "summary": "Request for Expression of Interest. CS. Project: Philippines Digital Infrastructure Project (P176317). REQUEST FOR EXPRESSIONS OF INTEREST (REOI) (INDIVIDUAL CONSULTING SERVICES) PHILIPPINES PHILIPPINES DIGITAL INFRASTRUCTURE PROJECT Loan No./Credit No./ Grant No.: IBRD Loan Number 9730-PH Assignment Title: Engagement of Technical Consultant under the Project Implementation Unit - Cybersecurity Specialist Reference No. (as per Procurement Plan): PH-DICT-475099-CS-INDV The Department of Information and Communications Technology (DICT) has received financing from the World Bank toward the cost of the Philippines Digital Infrastructure Project and intends to apply part of the proceeds for consulting services. The consulting services (&ldquo;the Services&rdquo;) include the hiring of a Cybersecurity Specialist who will support the implementation of Component 4 of the PDIP, focusing on enhancing network security across the Philippines. This includes developing cybersecurity policies, improving real-time threat response, building capacity within government agencies, and promoting cybersecurity awareness and education. The Specialist will work closely with the Project Manager, DICT, and o",
+  "summary": "Request for Expression of Interest. CS. Project: Philippines Digital Infrastructure Project (P176317). REQUEST FOR EXPRESSIONS OF INTEREST (REOI) (INDIVIDUAL CONSULTING SERVICES) PHILIPPINES PHILIPPINES DIGITAL INFRASTRUCTURE PROJECT Loan No./Credit No./ Grant No.: IBRD Loan Number 9730-PH Assignment Title: Engagement of Technical Consultant under the Project Implementation Unit - Cybersecurity Specialist Reference No. (as per Procurement Plan): PH-DICT-475099-CS-INDV The Department of Information and Communications Technology (DICT) has received financing from the World Bank toward the cost of the Philippines Digital Infrastructure Project and intends to apply part of the proceeds for consulting services. The consulting services (“the Services”) include the hiring of a Cybersecurity Specialist who will support the implementation of Component 4 of the PDIP, focusing on enhancing network security across the Philippines. This includes developing cybersecurity policies, improving real-time threat response, building capacity within government agencies, and promoting cybersecurity awareness and education. The Specialist will work closely with the Project Manager, DICT, and other stakeho",
   "countries": [
    "Philippines"
   ],
@@ -65,7 +65,7 @@
   "source": "worldbank",
   "kind": "tender",
   "funder": "World Bank – Philippines Digital Infrastructure Project",
-  "summary": "Request for Expression of Interest. CS. Project: Philippines Digital Infrastructure Project (P176317). REQUEST FOR EXPRESSIONS OF INTEREST (REOI) CONSULTANT&rsquo;S QUALITY COST BASED SELECTION (QCBS) Name of Project PHILIPPINES DIGITAL INFRASTRUCTURE PROJECT Loan No/Credit No/ Grant Number IBRD Loan Number 9730-PH Assignment Title Procurement of Consultancy Services for Environmental and Social Impact Assessment and Supervision of Environmental and Social Compliance Procurement Plan Ref Number PH-DICT-475110-CS-QCBS Country of Delivery PHILIPPINES The Republic of the Philippines has received financing from the International Bank for Reconstruction and Development (World Bank) under IBRD Loan No. 9730-PH toward the cost of the Philippine Digital Infrastructure Project (PDIP) (the &ldquo;Project&rdquo;). The Department of Information and Communications Technology (DICT), as the authorized implementing agency, intends to apply part of the proceeds for consulting services. 1. The Services DICT seeks a consulting firm to provide Consultancy Services for Environmental and Social Impact Assessment (ESIA) and Supervision of Environmental and Social Compliance (the &ldquo;Services&rdquo;).",
+  "summary": "Request for Expression of Interest. CS. Project: Philippines Digital Infrastructure Project (P176317). REQUEST FOR EXPRESSIONS OF INTEREST (REOI) CONSULTANT’S QUALITY COST BASED SELECTION (QCBS) Name of Project PHILIPPINES DIGITAL INFRASTRUCTURE PROJECT Loan No/Credit No/ Grant Number IBRD Loan Number 9730-PH Assignment Title Procurement of Consultancy Services for Environmental and Social Impact Assessment and Supervision of Environmental and Social Compliance Procurement Plan Ref Number PH-DICT-475110-CS-QCBS Country of Delivery PHILIPPINES The Republic of the Philippines has received financing from the International Bank for Reconstruction and Development (World Bank) under IBRD Loan No. 9730-PH toward the cost of the Philippine Digital Infrastructure Project (PDIP) (the “Project”). The Department of Information and Communications Technology (DICT), as the authorized implementing agency, intends to apply part of the proceeds for consulting services. 1. The Services DICT seeks a consulting firm to provide Consultancy Services for Environmental and Social Impact Assessment (ESIA) and Supervision of Environmental and Social Compliance (the “Services”). The Services are intended to ",
   "countries": [
    "Philippines"
   ],
@@ -88,12 +88,177 @@
   "raw_status": "Published"
  },
  {
+  "title": "China-ASEAN Innovation & Entrepreneurship Competition",
+  "url": "https://fundsforcompanies.fundsforngos.org/events/china-asean-innovation-entrepreneurship-competition/",
+  "source": "fundsforngos_asean",
+  "kind": "grant",
+  "funder": "",
+  "summary": "Deadline Date: March 31, 2026 The 4th China-ASEAN Innovation & Entrepreneurship Competition (CAIEC) 2026 is now open for AI-powered innovators across China and ASEAN to pitch their ideas, connect across borders, and compete on a regional stage. The competition focuses on the innovative application of artificial intelligence technology, covering a wide range of AI application... [Read More] The post China-ASEAN Innovation & Entrepreneurship Competition first appeared on Funds for Companies .",
+  "countries": [
+   "ASEAN-wide"
+  ],
+  "themes": [
+   "AI & Data",
+   "Startups & Innovation"
+  ],
+  "open_date": "2026-02-10",
+  "deadline": "2026-03-31",
+  "funding": "",
+  "eligibility": "",
+  "requirements": "",
+  "reference": "",
+  "recurring": "",
+  "notes": "",
+  "id": "61ae01dbdcc9",
+  "status": "closed",
+  "score": 90,
+  "first_seen": "2026-11-16",
+  "last_seen": "2026-11-16",
+  "raw_status": ""
+ },
+ {
+  "title": "ASEAN SOAR Together: Driving Digital Commerce Growth",
+  "url": "https://fundsforcompanies.fundsforngos.org/events/asean-soar-together-driving-digital-commerce-growth/",
+  "source": "fundsforngos_asean",
+  "kind": "grant",
+  "funder": "",
+  "summary": "Deadline Date: April 26, 2026 The ASEAN SOAR Together Masterclass offers an engaging opportunity for individuals and businesses to explore how digital commerce can accelerate growth across Southeast Asia. The programme focuses on previewing the overall learning experience, exploring growth strategies in digital marketing, e-commerce, and content creation, gaining insights from TikTok Shop experts on... [Read More] The post ASEAN SOAR Together: Driving Digital Commerce Growth first appeared on Funds for Companies .",
+  "countries": [
+   "ASEAN-wide"
+  ],
+  "themes": [
+   "Digital Economy & Trade"
+  ],
+  "open_date": "2026-04-15",
+  "deadline": "2026-04-26",
+  "funding": "",
+  "eligibility": "",
+  "requirements": "",
+  "reference": "",
+  "recurring": "",
+  "notes": "",
+  "id": "bdcf9d901766",
+  "status": "closed",
+  "score": 70,
+  "first_seen": "2026-11-16",
+  "last_seen": "2026-11-16",
+  "raw_status": ""
+ },
+ {
+  "title": "Call for Applications: Generation Next Grant Program",
+  "url": "https://fundsforcompanies.fundsforngos.org/grant/call-for-applications-generation-next-grant-program/",
+  "source": "fundsforngos_asean",
+  "kind": "grant",
+  "funder": "",
+  "summary": "Deadline Date: May 05, 2026 The Generation Next is a fully funded grant program designed to empower early-stage female entrepreneurs from ASEAN and Australia to scale their businesses globally and drive economic growth. The programme focuses on accelerating business growth and economic empowerment for women founders, building cross-border connections, scaling startups on a global stage,... [Read More] The post Call for Applications: Generation Next Grant Program first appeared on Funds for Companies .",
+  "countries": [
+   "ASEAN-wide"
+  ],
+  "themes": [
+   "Development & Inclusion"
+  ],
+  "open_date": "2026-03-31",
+  "deadline": "2026-05-05",
+  "funding": "",
+  "eligibility": "",
+  "requirements": "",
+  "reference": "",
+  "recurring": "",
+  "notes": "",
+  "id": "c31c6122a66b",
+  "status": "closed",
+  "score": 85,
+  "first_seen": "2026-11-16",
+  "last_seen": "2026-11-16",
+  "raw_status": ""
+ },
+ {
+  "title": "ASEAN SOAR Together – Acceleration Programme",
+  "url": "https://fundsforcompanies.fundsforngos.org/training-and-mentorship/asean-soar-together-acceleration-programme/",
+  "source": "fundsforngos_asean",
+  "kind": "grant",
+  "funder": "",
+  "summary": "Deadline Date: May 10, 2026 The ASEAN SOAR Together Acceleration Programme offers MSMEs a six-month intensive journey to strengthen digital business capabilities and expand sustainably across the ASEAN region. The programme focuses on capacity-building and business acceleration, hands-on digital selling skills through TikTok and TikTok Shop, expert mentorship and strategic support, regional networking opportunities, regional... [Read More] The post ASEAN SOAR Together – Acceleration Programme first appeared on Funds for Companies .",
+  "countries": [
+   "ASEAN-wide"
+  ],
+  "themes": [
+   "Future of Work & Skills"
+  ],
+  "open_date": "2026-04-13",
+  "deadline": "2026-05-10",
+  "funding": "",
+  "eligibility": "",
+  "requirements": "",
+  "reference": "",
+  "recurring": "",
+  "notes": "",
+  "id": "bdb5448b3f8c",
+  "status": "closed",
+  "score": 70,
+  "first_seen": "2026-11-16",
+  "last_seen": "2026-11-16",
+  "raw_status": ""
+ },
+ {
+  "title": "Open Call: Grants to support Asean Changemakers",
+  "url": "https://fundsforcompanies.fundsforngos.org/grant/open-call-grants-to-support-asean-changemakers/",
+  "source": "fundsforngos_asean",
+  "kind": "grant",
+  "funder": "",
+  "summary": "Deadline Date: May 10, 2026 The AirAsia Foundation has launched its applications to support changemakers across ASEAN by providing resources, networks and encouragement to transform impactful ideas into reality. The programme focuses on initiatives that deliver long-term benefits to communities and the environment, with particular emphasis on sustainable travel, climate resilience, and other high-impact innovative... [Read More] The post Open Call: Grants to support Asean Changemakers first appeared on Funds for Companies .",
+  "countries": [
+   "ASEAN-wide"
+  ],
+  "themes": [],
+  "open_date": "2026-03-18",
+  "deadline": "2026-05-10",
+  "funding": "",
+  "eligibility": "",
+  "requirements": "",
+  "reference": "",
+  "recurring": "",
+  "notes": "",
+  "id": "016987c74383",
+  "status": "closed",
+  "score": 55,
+  "first_seen": "2026-11-16",
+  "last_seen": "2026-11-16",
+  "raw_status": ""
+ },
+ {
+  "title": "RFAs: Firm to Support Investment Readiness and Impact Acceleration (Cambodia)",
+  "url": "https://fundsforcompanies.fundsforngos.org/grant/rfas-firm-to-support-investment-readiness-and-impact-acceleration-cambodia/",
+  "source": "fundsforngos_asean",
+  "kind": "grant",
+  "funder": "",
+  "summary": "Deadline Date: June 05, 2026 The Firm to Support Investment Readiness & Impact Acceleration initiative seeks to strengthen climate adaptation, green supply chain development, and investment readiness among selected companies in Cambodia through technical mentorship, climate-smart agriculture support, and financial linkage facilitation. The program focuses on diagnostic and supply chain climate-risk assessment, adaptation practices and... [Read More] The post RFAs: Firm to Support Investment Readiness and Impact Acceleration (Cambodia) first appeared on Funds for Companies .",
+  "countries": [
+   "Cambodia"
+  ],
+  "themes": [],
+  "open_date": "2026-05-27",
+  "deadline": "2026-06-05",
+  "funding": "",
+  "eligibility": "",
+  "requirements": "",
+  "reference": "",
+  "recurring": "",
+  "notes": "",
+  "id": "efb50f8c839a",
+  "status": "closed",
+  "score": 55,
+  "first_seen": "2026-11-16",
+  "last_seen": "2026-11-16",
+  "raw_status": ""
+ },
+ {
   "title": "KNOWLEDGE MANAGEMENT PLATFORM SUPPORT CONSULTANT (CONSULTING SERVICE)",
   "url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00445772",
   "source": "worldbank",
   "kind": "tender",
   "funder": "World Bank – Indonesia: National Urban Flood Resilience Project (NUFReP)",
-  "summary": "Request for Expression of Interest. CS. Project: Indonesia: National Urban Flood Resilience Project (NUFReP) (P173671). INDONESIA Knowledge Management Platform Support Consultant - Consulting Service Loan No. IBRD Ln. 9459-ID Project ID No. P173671 Assignment Title: Knowledge Management Platform Support Consultant - Consulting Service Reference No.: ID-BANGDA-504701-CS-CQS 1. The Ministry of Home Affairs has received financing from the World Bank for the National Urban Flood Resilience Project (NUFReP) and intends to use a portion of the funds for consulting services. 2. The World Bank is providing support to the Government of Indonesia through financing a loan from the International Bank for Reconstruction and Development (IBRD) for the National Urban Flood Resilience Project (NUFReP). The NUFReP Project Development Objective (PDO) is to reduce flood risk in selected cities in Indonesia through capacity building at the national and city levels and investment in integrated urban flood risk management. This project supports the Government&#39;s commitment to establish a national urban flood resilience program, as mandated in the 2020&ndash;2024 National Medium-Term Development Plan ",
+  "summary": "Request for Expression of Interest. CS. Project: Indonesia: National Urban Flood Resilience Project (NUFReP) (P173671). INDONESIA Knowledge Management Platform Support Consultant - Consulting Service Loan No. IBRD Ln. 9459-ID Project ID No. P173671 Assignment Title: Knowledge Management Platform Support Consultant - Consulting Service Reference No.: ID-BANGDA-504701-CS-CQS 1. The Ministry of Home Affairs has received financing from the World Bank for the National Urban Flood Resilience Project (NUFReP) and intends to use a portion of the funds for consulting services. 2. The World Bank is providing support to the Government of Indonesia through financing a loan from the International Bank for Reconstruction and Development (IBRD) for the National Urban Flood Resilience Project (NUFReP). The NUFReP Project Development Objective (PDO) is to reduce flood risk in selected cities in Indonesia through capacity building at the national and city levels and investment in integrated urban flood risk management. This project supports the Government's commitment to establish a national urban flood resilience program, as mandated in the 2020–2024 National Medium-Term Development Plan (RPJMN). 3",
   "countries": [
    "Indonesia"
   ],
@@ -206,7 +371,7 @@
   "source": "worldbank",
   "kind": "tender",
   "funder": "World Bank – Philippines Digital Infrastructure Project",
-  "summary": "Request for Expression of Interest. CS. Project: Philippines Digital Infrastructure Project (P176317). REQUEST FOR EXPRESSIONS OF INTEREST (REOI) (INDIVIDUAL CONSULTING SERVICES) PHILIPPINES PHILIPPINE DIGITAL INFRASTRUCTURE PROJECT Loan No./Credit No./ Grant No.: IBRD Loan Number 9730-PH Assignment Title: Engagement of Technical Consultant under the Project Implementation Unit - Cybersecurity Specialist Reference No . ( as per Procurement Plan ): PH-DICT-557476-CS-INDV The Department of Information and Communications Technology (DICT) has received financing from the World Bank toward the cost of the Philippine Digital Infrastructure Project and intends to apply part of the proceeds for consulting services. The consulting services (&ldquo;the Services&rdquo;) include the hiring of a Cybersecurity Specialist who will support the implementation of Component 4 of the PDIP, focusing on enhancing network security across the Philippines. This includes developing cybersecurity policies, improving real-time threat response, building capacity within government agencies, and promoting cybersecurity awareness and education. The Specialist will work closely with the Project Manager, DICT and o",
+  "summary": "Request for Expression of Interest. CS. Project: Philippines Digital Infrastructure Project (P176317). REQUEST FOR EXPRESSIONS OF INTEREST (REOI) (INDIVIDUAL CONSULTING SERVICES) PHILIPPINES PHILIPPINE DIGITAL INFRASTRUCTURE PROJECT Loan No./Credit No./ Grant No.: IBRD Loan Number 9730-PH Assignment Title: Engagement of Technical Consultant under the Project Implementation Unit - Cybersecurity Specialist Reference No . ( as per Procurement Plan ): PH-DICT-557476-CS-INDV The Department of Information and Communications Technology (DICT) has received financing from the World Bank toward the cost of the Philippine Digital Infrastructure Project and intends to apply part of the proceeds for consulting services. The consulting services (“the Services”) include the hiring of a Cybersecurity Specialist who will support the implementation of Component 4 of the PDIP, focusing on enhancing network security across the Philippines. This includes developing cybersecurity policies, improving real-time threat response, building capacity within government agencies, and promoting cybersecurity awareness and education. The Specialist will work closely with the Project Manager, DICT and other stakeho",
   "countries": [
    "Philippines"
   ],
@@ -261,7 +426,7 @@
   "source": "worldbank",
   "kind": "tender",
   "funder": "World Bank – Lao PDR Strengthening the National Statistical System",
-  "summary": "Request for Expression of Interest. CS. Project: Lao PDR Strengthening the National Statistical System (P178002). REQUEST FOR EXPRESSIONS OF INTEREST National Communications Consultant (Ref. No. CS- 59) Lao Statistics Bureau (LSB) is implementing a project titled &ldquo; Lao PDR Strengthening the National Statistical Project (LAOSTAT II) &rdquo; from 2023 to 2028. The Government of Lao PDR (GoL) has received a loan from the World Bank&rsquo;s International Development Association (IDA) to improve the capacity of the Lao PDR NSS to produce and disseminate high-quality statistics in a timely manner, to enhance the use of key statistics, and in case of an Eligible Crisis or Emergency, respond promptly and effectively to it. The project is closely aligned with Vision 2030 and the Strategy of the Development of National Statistical System (SDNSS - 2016 &ndash; 2025) which outlines key strategies for sustained development of the Lao Statistical System (LSS). The project focuses on four components, namely (i) Improving the availability and quality of official statistics, (ii) Enhancing the use of statistics in the GoL, (iii) Strengthening institutional capacity and project management, and",
+  "summary": "Request for Expression of Interest. CS. Project: Lao PDR Strengthening the National Statistical System (P178002). REQUEST FOR EXPRESSIONS OF INTEREST National Communications Consultant (Ref. No. CS- 59) Lao Statistics Bureau (LSB) is implementing a project titled “ Lao PDR Strengthening the National Statistical Project (LAOSTAT II) ” from 2023 to 2028. The Government of Lao PDR (GoL) has received a loan from the World Bank’s International Development Association (IDA) to improve the capacity of the Lao PDR NSS to produce and disseminate high-quality statistics in a timely manner, to enhance the use of key statistics, and in case of an Eligible Crisis or Emergency, respond promptly and effectively to it. The project is closely aligned with Vision 2030 and the Strategy of the Development of National Statistical System (SDNSS - 2016 – 2025) which outlines key strategies for sustained development of the Lao Statistical System (LSS). The project focuses on four components, namely (i) Improving the availability and quality of official statistics, (ii) Enhancing the use of statistics in the GoL, (iii) Strengthening institutional capacity and project management, and (iv) Contingent Emergen",
   "countries": [
    "Laos"
   ],
@@ -287,7 +452,7 @@
   "source": "worldbank",
   "kind": "tender",
   "funder": "World Bank – Vietnam University Development of VNU-Hanoi, VNU-HCM, and UD",
-  "summary": "Invitation for Bids. GO. Project: Vietnam University Development of VNU-Hanoi, VNU-HCM, and UD (P166656). Specific Procurement Notice Template Request for Bids Goods (Two-Envelope Bidding Process) Country: Vietnam Name of Project: Subproject 1 &ndash; Construction of Technical Infrastructure and Essential Facilities for the University of Danang at Hoa Quy&ndash;Dien Ngoc, financed by the World Bank under the Project for Construction of Technical Infrastructure and Essential Facilities for the University of Danang at Hoa Quy&ndash;Dien Ngoc. Contract Title: Supply and installation of scientific research laboratory equipment for: Digital Centers; Central Server Systems; IT equipment and Mechatronics Technology - Automation -Automatic Control Laboratory Centers Loan No./Credit No./ Grant No.: IDA-6724-VN RFB Reference No.: DN-GO--01 The Socialist Republic of Vietnam has received financing from the World Bank toward the cost of the Vietnam University Development Project at Vietnam National University, Hanoi; Vietnam National University, Ho Chi Minh City; and the University of Danang, and intends to apply part of the proceeds toward payments under the contract for &ldquo;Supply and inst",
+  "summary": "Invitation for Bids. GO. Project: Vietnam University Development of VNU-Hanoi, VNU-HCM, and UD (P166656). Specific Procurement Notice Template Request for Bids Goods (Two-Envelope Bidding Process) Country: Vietnam Name of Project: Subproject 1 – Construction of Technical Infrastructure and Essential Facilities for the University of Danang at Hoa Quy–Dien Ngoc, financed by the World Bank under the Project for Construction of Technical Infrastructure and Essential Facilities for the University of Danang at Hoa Quy–Dien Ngoc. Contract Title: Supply and installation of scientific research laboratory equipment for: Digital Centers; Central Server Systems; IT equipment and Mechatronics Technology - Automation -Automatic Control Laboratory Centers Loan No./Credit No./ Grant No.: IDA-6724-VN RFB Reference No.: DN-GO--01 The Socialist Republic of Vietnam has received financing from the World Bank toward the cost of the Vietnam University Development Project at Vietnam National University, Hanoi; Vietnam National University, Ho Chi Minh City; and the University of Danang, and intends to apply part of the proceeds toward payments under the contract for “Supply and installation of scientific r",
   "countries": [
    "Vietnam"
   ],
@@ -315,7 +480,7 @@
   "source": "worldbank",
   "kind": "tender",
   "funder": "World Bank – Labor Market Information and Skills System Transformation for Labor Market Flexibility",
-  "summary": "Request for Expression of Interest. CS. Project: Labor Market Information and Skills System Transformation for Labor Market Flexibility (P166693). Request Expression of Interest (REOI) Consulting Services &ndash; Firm Selection Number: B-1.5/630/UM.02/VII/2026 SYSTEM INTEGRATOR (SI) FOR MOMS LMIS ARCHITECTURE REVITALIZATION, DEVELOPMENT, ENHANCEMENT, AND PROVIDING IMPLEMENTATION SUPPORT SERVICES Reference No. ID-MOM-555653-CS-QCBS Labour Market Information and Skills for Transformation for Labour Market Flexibility Project &ndash; International Bank for Reconstruction and Development &ndash; Loan Number 9636-ID The Government of the Republic of Indonesia has received financing from the World Bank toward the cost of Labour Market Information and Skills for Transformation for Labour Market Flexibility (LISTRAF) and intend to apply part of the proceeds for consulting services. The main purpose of this assignment is to focus on the revitalization of the existing SIAPkerja platform, a digital ecosystem developed and managed by the Ministry of Manpower (hereinafter referred to as the &ldquo;Ministry&rdquo;), through the following: (i) redesign of the SIAPkerja user interface based on use",
+  "summary": "Request for Expression of Interest. CS. Project: Labor Market Information and Skills System Transformation for Labor Market Flexibility (P166693). Request Expression of Interest (REOI) Consulting Services – Firm Selection Number: B-1.5/630/UM.02/VII/2026 SYSTEM INTEGRATOR (SI) FOR MOMS LMIS ARCHITECTURE REVITALIZATION, DEVELOPMENT, ENHANCEMENT, AND PROVIDING IMPLEMENTATION SUPPORT SERVICES Reference No. ID-MOM-555653-CS-QCBS Labour Market Information and Skills for Transformation for Labour Market Flexibility Project – International Bank for Reconstruction and Development – Loan Number 9636-ID The Government of the Republic of Indonesia has received financing from the World Bank toward the cost of Labour Market Information and Skills for Transformation for Labour Market Flexibility (LISTRAF) and intend to apply part of the proceeds for consulting services. The main purpose of this assignment is to focus on the revitalization of the existing SIAPkerja platform, a digital ecosystem developed and managed by the Ministry of Manpower (hereinafter referred to as the “Ministry”), through the following: (i) redesign of the SIAPkerja user interface based on user mapping and end-user needs; ",
   "countries": [
    "Indonesia"
   ],
@@ -338,12 +503,41 @@
   "raw_status": "Published"
  },
  {
+  "title": "CFAs: UN Women WEPs Corporate Action Lab Philippines",
+  "url": "https://fundsforcompanies.fundsforngos.org/events/cfas-un-women-weps-corporate-action-lab-philippines/",
+  "source": "fundsforngos_asean",
+  "kind": "grant",
+  "funder": "",
+  "summary": "Deadline Date: August 15, 2026 The UN Women WEPs Corporate Action Lab Philippines aims to help businesses design and test solutions that promote equal access to skills, training, and employment opportunities for diverse groups. The key focus areas include Gender Equality, Disability and Social Inclusion (GEDSI), gender-responsive training models, equitable career pathways, skills development, learning... [Read More] The post CFAs: UN Women WEPs Corporate Action Lab Philippines first appeared on Funds for Companies .",
+  "countries": [
+   "Philippines"
+  ],
+  "themes": [
+   "Development & Inclusion",
+   "Future of Work & Skills"
+  ],
+  "open_date": "2026-07-17",
+  "deadline": "2026-08-15",
+  "funding": "",
+  "eligibility": "",
+  "requirements": "",
+  "reference": "",
+  "recurring": "",
+  "notes": "",
+  "id": "76fb6897e098",
+  "status": "closed",
+  "score": 75,
+  "first_seen": "2026-11-16",
+  "last_seen": "2026-11-16",
+  "raw_status": ""
+ },
+ {
   "title": "Customer Relationship Management Strengthening and Survey for Enhancing Population Administration Services.",
   "url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460943",
   "source": "worldbank",
   "kind": "tender",
   "funder": "World Bank – ID for Inclusive Service Delivery and Digital Transformation in Indonesia",
-  "summary": "Request for Expression of Interest. CS. Project: ID for Inclusive Service Delivery and Digital Transformation in Indonesia (P175218). REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) Inclusive Service Delivery and Digital Transformation in Indonesia Loan No. IBRD-95200-ID Project ID No. P175218 Assignment Title : Strengthening Customer Relationship Management and the Population Administration Service Improvement Survey Consulting Firm Reference No : ID-DITJEN DUKCAPIL-552206-CS-CQS The Government of Indonesia has received financing from the World Bank toward the cost of Inclusive Service Delivery and Digital Transformation in Indonesia (Loan No. IBRD-95200), and intends to apply part of the proceeds for consulting services. To respond to the increasing needs and challenges in population administration and to utilize the strategic role of accurate population data, the Government of Indonesia has initiated comprehensive efforts to modernize and strengthen its system. This commitment is reflected in the launch of the project &quot;ID for Inclusive Service Delivery and Digital Transformation in Indonesia,&quot; which aims to improve the population and c",
+  "summary": "Request for Expression of Interest. CS. Project: ID for Inclusive Service Delivery and Digital Transformation in Indonesia (P175218). REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES – FIRMS SELECTION) Inclusive Service Delivery and Digital Transformation in Indonesia Loan No. IBRD-95200-ID Project ID No. P175218 Assignment Title : Strengthening Customer Relationship Management and the Population Administration Service Improvement Survey Consulting Firm Reference No : ID-DITJEN DUKCAPIL-552206-CS-CQS The Government of Indonesia has received financing from the World Bank toward the cost of Inclusive Service Delivery and Digital Transformation in Indonesia (Loan No. IBRD-95200), and intends to apply part of the proceeds for consulting services. To respond to the increasing needs and challenges in population administration and to utilize the strategic role of accurate population data, the Government of Indonesia has initiated comprehensive efforts to modernize and strengthen its system. This commitment is reflected in the launch of the project \"ID for Inclusive Service Delivery and Digital Transformation in Indonesia,\" which aims to improve the population and civil registratio",
   "countries": [
    "Indonesia"
   ],
@@ -399,7 +593,7 @@
   "source": "worldbank",
   "kind": "tender",
   "funder": "World Bank – Labor Market Information and Skills System Transformation for Labor Market Flexibility",
-  "summary": "Request for Expression of Interest. CS. Project: Labor Market Information and Skills System Transformation for Labor Market Flexibility (P166693). Request Expression of Interest (REOI) Number: B-1.5/803/UM.02/VIII/2026 For Hiring of: Procurement Of Consulting Firm Planning, Design, And Pilot Implementation Of Human Capital Blueprint, Human Capital Development Plan, Assessment Center, And Change Management Reference No. ID-MOM-565267-CS-QCBS Labour Market Information and Skills for Transformation for Labour Market Flexibility Project &ndash; International Bank for Reconstruction and Development &ndash; Loan Number 9636-ID The Government of the Republic of Indonesia has received financing from the World Bank toward the cost of Labour Market Information and Skills for Transformation for Labour Market Flexibility (LISTRAF) and intend to apply part of the proceeds for consulting services. The Consulting services (&ldquo;The Services&rdquo;) include the implementation of the Human Capital Blueprint (HCBP), Human Capital Development Plan (HCDP), Assessment Center (AC), and Change Management (CM) project for the Ministry of Manpower. Tasks include: Change Management. Human Capital (HC) Man",
+  "summary": "Request for Expression of Interest. CS. Project: Labor Market Information and Skills System Transformation for Labor Market Flexibility (P166693). Request Expression of Interest (REOI) Number: B-1.5/803/UM.02/VIII/2026 For Hiring of: Procurement Of Consulting Firm Planning, Design, And Pilot Implementation Of Human Capital Blueprint, Human Capital Development Plan, Assessment Center, And Change Management Reference No. ID-MOM-565267-CS-QCBS Labour Market Information and Skills for Transformation for Labour Market Flexibility Project – International Bank for Reconstruction and Development – Loan Number 9636-ID The Government of the Republic of Indonesia has received financing from the World Bank toward the cost of Labour Market Information and Skills for Transformation for Labour Market Flexibility (LISTRAF) and intend to apply part of the proceeds for consulting services. The Consulting services (“The Services”) include the implementation of the Human Capital Blueprint (HCBP), Human Capital Development Plan (HCDP), Assessment Center (AC), and Change Management (CM) project for the Ministry of Manpower. Tasks include: Change Management. Human Capital (HC) Management Practices. Strat",
   "countries": [
    "Indonesia"
   ],
@@ -540,7 +734,7 @@
   "source": "worldbank",
   "kind": "tender",
   "funder": "World Bank – Philippines Digital Infrastructure Project",
-  "summary": "Request for Expression of Interest. CS. Project: Philippines Digital Infrastructure Project (P176317). REQUEST FOR EXPRESSIONS OF INTEREST (REOI) (INDIVIDUAL CONSULTING SERVICES) PHILIPPINES PHILIPPINES DIGITAL INFRASTRUCTURE PROJECT Loan No./Credit No./ Grant No.: IBRD Loan Number 9730-PH Assignment Title: Engagement of Technical Consultant under the Project Implementation Unit - Communications Officer Reference No . ( as per Procurement Plan ): PH-DICT-566516-CS-INDV The Department of Information and Communications Technology (DICT) has received financing from the World Bank toward the cost of the Philippines Digital Infrastructure Project and intends to apply part of the proceeds for consulting services. The consulting services (&ldquo;the Services&rdquo;) include the hiring of a Communications Officer who will directly report to the Project Manager and will be responsible for the design and implementation of a communication strategy to inform internal and external stakeholders, users of public facilities to be connected under the project, beneficiary departments, private sector stakeholders, and the wider public of the project activities to be implemented under the PDIP. The li",
+  "summary": "Request for Expression of Interest. CS. Project: Philippines Digital Infrastructure Project (P176317). REQUEST FOR EXPRESSIONS OF INTEREST (REOI) (INDIVIDUAL CONSULTING SERVICES) PHILIPPINES PHILIPPINES DIGITAL INFRASTRUCTURE PROJECT Loan No./Credit No./ Grant No.: IBRD Loan Number 9730-PH Assignment Title: Engagement of Technical Consultant under the Project Implementation Unit - Communications Officer Reference No . ( as per Procurement Plan ): PH-DICT-566516-CS-INDV The Department of Information and Communications Technology (DICT) has received financing from the World Bank toward the cost of the Philippines Digital Infrastructure Project and intends to apply part of the proceeds for consulting services. The consulting services (“the Services”) include the hiring of a Communications Officer who will directly report to the Project Manager and will be responsible for the design and implementation of a communication strategy to inform internal and external stakeholders, users of public facilities to be connected under the project, beneficiary departments, private sector stakeholders, and the wider public of the project activities to be implemented under the PDIP. The list of duties",
   "countries": [
    "Philippines"
   ],
@@ -653,7 +847,7 @@
   "source": "worldbank",
   "kind": "tender",
   "funder": "World Bank – Technical Assistance for Sustainable Agriculture Transformation in the Philippines Project",
-  "summary": "Request for Expression of Interest. CS. Project: Technical Assistance for Sustainable Agriculture Transformation in the Philippines Project (P509767). REQUEST FOR EXPRESSION OF INTEREST (EOI) FOR CONSULTING SERVICES FOR THE PHILIPPINES SUSTAINABLE AGRICULTURE TRANSFORMATION (PSAT) PROGRAM AND THE TECHNICAL ASSISTANCE FOR SUSTAINABLE AGRICULTURAL TRANSFORMATION (TASAT) IN THE PHILIPPINES PROJECT INDEPENDENT VERIFICATION AGENCY (IVA) 1. The Government of the Philippines (GoP) has received a Grant from the World Bank toward the cost of Hiring of Consultancy Firm (Independent Verification Agent) for Data Collection and Verification of Philippines Sustainable Agricultural Transformation (PSAT) Program&rsquo;s Disbursement Linked Results (DLRs) and it intends to apply part of the proceeds of this Grant to One Hundred Sixteen Million Pesos (116,000,000.00) payments under the contract for DASBAC 2026-09-001 . 2. The Department of Agriculture Philippines Sustainable Agriculture Transformation and Technical Assistance for Sustainable Agriculture Transformation Project Management Office (DA PSAT & TASAT PMO) now calls for the submission of short-listing documents for the Hiring of Consultancy",
+  "summary": "Request for Expression of Interest. CS. Project: Technical Assistance for Sustainable Agriculture Transformation in the Philippines Project (P509767). REQUEST FOR EXPRESSION OF INTEREST (EOI) FOR CONSULTING SERVICES FOR THE PHILIPPINES SUSTAINABLE AGRICULTURE TRANSFORMATION (PSAT) PROGRAM AND THE TECHNICAL ASSISTANCE FOR SUSTAINABLE AGRICULTURAL TRANSFORMATION (TASAT) IN THE PHILIPPINES PROJECT INDEPENDENT VERIFICATION AGENCY (IVA) 1. The Government of the Philippines (GoP) has received a Grant from the World Bank toward the cost of Hiring of Consultancy Firm (Independent Verification Agent) for Data Collection and Verification of Philippines Sustainable Agricultural Transformation (PSAT) Program’s Disbursement Linked Results (DLRs) and it intends to apply part of the proceeds of this Grant to One Hundred Sixteen Million Pesos (116,000,000.00) payments under the contract for DASBAC 2026-09-001 . 2. The Department of Agriculture Philippines Sustainable Agriculture Transformation and Technical Assistance for Sustainable Agriculture Transformation Project Management Office (DA PSAT & TASAT PMO) now calls for the submission of short-listing documents for the Hiring of Consultancy Firm ",
   "countries": [
    "Philippines"
   ],
@@ -709,7 +903,7 @@
   "source": "worldbank",
   "kind": "tender",
   "funder": "World Bank – Nurturing Early Skills through Technology",
-  "summary": "Request for Expression of Interest. CS. Project: Nurturing Early Skills through Technology (P509852). TERMS OF REFERENCE National Individual Consultant Site Engineer (Two Positions) Title Site Engineer (two (2) positions) Contractual Arrangement Local Recruitment Expected Start Date November 9th 2026 Contract Duration Eight (8) months (November 2026 &ndash; July 2027), with possibility of extension subject to satisfactory performance, project needs, and availability of funding. Level of Input Full-time Project Nurturing Early Skills through Technology (NEST) Project Financing Partner The World Bank Hiring Organization Shanti Volunteer Association (SVA) Duty Station Position 1: Battambang Province (covering project sites in Kos Kralar, Ek Phnom and Thmar Kaul Districts) Position 2: Banteay Meanchey Province (covering project sites in Phnom Srok District) Contract Type Time Based 1. Background The Nurturing Early Skills through Technology (NEST) Project is funded by the Japan Social Development Fund (JSDF) and administered by the World Bank. The Project is implemented by Shanti Volunteer Association (SVA) in close collaboration with the Ministry of Education, Youth and Sport (MoEYS) ",
+  "summary": "Request for Expression of Interest. CS. Project: Nurturing Early Skills through Technology (P509852). TERMS OF REFERENCE National Individual Consultant Site Engineer (Two Positions) Title Site Engineer (two (2) positions) Contractual Arrangement Local Recruitment Expected Start Date November 9th 2026 Contract Duration Eight (8) months (November 2026 – July 2027), with possibility of extension subject to satisfactory performance, project needs, and availability of funding. Level of Input Full-time Project Nurturing Early Skills through Technology (NEST) Project Financing Partner The World Bank Hiring Organization Shanti Volunteer Association (SVA) Duty Station Position 1: Battambang Province (covering project sites in Kos Kralar, Ek Phnom and Thmar Kaul Districts) Position 2: Banteay Meanchey Province (covering project sites in Phnom Srok District) Contract Type Time Based 1. Background The Nurturing Early Skills through Technology (NEST) Project is funded by the Japan Social Development Fund (JSDF) and administered by the World Bank. The Project is implemented by Shanti Volunteer Association (SVA) in close collaboration with the Ministry of Education, Youth and Sport (MoEYS) of Cam",
   "countries": [
    "Cambodia"
   ],
@@ -850,7 +1044,7 @@
   "source": "worldbank",
   "kind": "tender",
   "funder": "World Bank – Enhancing Public Financial Management through Information and Communication Technology and Skills (E",
-  "summary": "Request for Expression of Interest. CS. Project: Enhancing Public Financial Management through Information and Communication Technology and Skills (E (P510862). LAO PEOPLE &rsquo; S DEMOCRATIC REPUBLIC PEACE INDEPENDENCE DEMOCRATIC UNITY PROSPERITY Ministry of Finance No: FPD Fiscal Policy Department Date: Project : E - FITS & PFM REQUEST FOR EXPRESSIONS OF INTEREST FOR AN INDIVIDUAL CONSULTANT SERVICE The GoL has received a US$20 million credit from the World Bank for the implementation of the Enhancing Public Finance Management through ICT and Skills (E-FITS) Project to contribute to the reliability, timeliness and transparency of financial reporting and to enhance PFM skills. The MoF is seeking a qualified consultant to assist the Project Implementation Unit (PIU). The minimum qualification requirements for the consultant is listed below: Project Administrative Assistant: Minimum Bachelor&rsquo;s Degree in Business Administration, Management, Finance or equivalent; At least 2 years of relevant work experience in a administrative or clerical role on donor-supported projects/programs; Familiarity with and experience in government institutions and procedures would be an advantage; ",
+  "summary": "Request for Expression of Interest. CS. Project: Enhancing Public Financial Management through Information and Communication Technology and Skills (E (P510862). LAO PEOPLE ’ S DEMOCRATIC REPUBLIC PEACE INDEPENDENCE DEMOCRATIC UNITY PROSPERITY Ministry of Finance No: FPD Fiscal Policy Department Date: Project : E - FITS & PFM REQUEST FOR EXPRESSIONS OF INTEREST FOR AN INDIVIDUAL CONSULTANT SERVICE The GoL has received a US$20 million credit from the World Bank for the implementation of the Enhancing Public Finance Management through ICT and Skills (E-FITS) Project to contribute to the reliability, timeliness and transparency of financial reporting and to enhance PFM skills. The MoF is seeking a qualified consultant to assist the Project Implementation Unit (PIU). The minimum qualification requirements for the consultant is listed below: Project Administrative Assistant: Minimum Bachelor’s Degree in Business Administration, Management, Finance or equivalent; At least 2 years of relevant work experience in a administrative or clerical role on donor-supported projects/programs; Familiarity with and experience in government institutions and procedures would be an advantage; Excellent se",
   "countries": [
    "Laos"
   ],
@@ -958,7 +1152,7 @@
   "source": "worldbank",
   "kind": "tender",
   "funder": "World Bank – Philippine Rural Development Project Scale-up",
-  "summary": "Invitation for Bids. CW. Project: Philippine Rural Development Project Scale-up (P180379). Section I. Invitation to Bid Invitation to Bid for Rehab/Concreting of Lanawan &ndash; Tambalang &ndash; Balakan, Salug &ndash; Sarawagan Raba, Godod FMR (Segment 1); Dipopor &ndash; Poblacion, Godod FMR (Segment 2) Subproject ID No. PRDP-SU-IB-RO09-ZDN-004-000-000-2023-FMR-A Subproject ID No. PRDP-SU-IB-RO09-ZDN-004-000-000-2023-FMR-B 1) The Government of the Philippines (GOP) has received a Loan from the World Bank toward the cost of Philippine Rural Development Project Scale Up, and it intends to apply part of the proceeds of this Loan to payments under the contract for the following subprojects: LotNo. Contract Package Subproject ID No. Estimated ProjectCost (EPC) ContractDuration 1 Rehab/Concreting of Lanawan &ndash; Tambalang &ndash; Balakan, Salug &ndash; Sarawagan &ndash; Raba, Godod FMR (Segment 1) PRDP-SU-IB- RO09-ZDN-004-000-000- 2023-FMR-A PhP 254,309,000.00 358 CD 2 Rehab/Concreting of Dipopor &ndash; Poblacion,Godod FMR (Segment 2) PRDP-SU-IB- RO09-ZDN-004-000-000- 2023-FMR-B PhP 289,042,000.00 368 CD Note: A bidder may bid for a single or all lots. The experience requirement ho",
+  "summary": "Invitation for Bids. CW. Project: Philippine Rural Development Project Scale-up (P180379). Section I. Invitation to Bid Invitation to Bid for Rehab/Concreting of Lanawan – Tambalang – Balakan, Salug – Sarawagan Raba, Godod FMR (Segment 1); Dipopor – Poblacion, Godod FMR (Segment 2) Subproject ID No. PRDP-SU-IB-RO09-ZDN-004-000-000-2023-FMR-A Subproject ID No. PRDP-SU-IB-RO09-ZDN-004-000-000-2023-FMR-B 1) The Government of the Philippines (GOP) has received a Loan from the World Bank toward the cost of Philippine Rural Development Project Scale Up, and it intends to apply part of the proceeds of this Loan to payments under the contract for the following subprojects: LotNo. Contract Package Subproject ID No. Estimated ProjectCost (EPC) ContractDuration 1 Rehab/Concreting of Lanawan – Tambalang – Balakan, Salug – Sarawagan – Raba, Godod FMR (Segment 1) PRDP-SU-IB- RO09-ZDN-004-000-000- 2023-FMR-A PhP 254,309,000.00 358 CD 2 Rehab/Concreting of Dipopor – Poblacion,Godod FMR (Segment 2) PRDP-SU-IB- RO09-ZDN-004-000-000- 2023-FMR-B PhP 289,042,000.00 368 CD Note: A bidder may bid for a single or all lots. The experience requirement however for bidders participating in all lots is the agg",
   "countries": [
    "Philippines"
   ],
@@ -1250,7 +1444,7 @@
   "source": "worldbank",
   "kind": "tender",
   "funder": "World Bank – Accelerating Sustainable Energy Transition Program",
-  "summary": "Request for Expression of Interest. CS. Project: Accelerating Sustainable Energy Transition Program (P181555). [EXTENDED] The ASEAN Centre for Energy (ACE) has received financing from the World Bank toward the cost of the Clean Energy and Power Trade Development in Southeast Asia Project as Phase 1 of the Multi-Phase Programmatic Approach Accelerating Sustainable Energy Transition/MPA ASET (P181555) and intends to apply part of the proceeds for Consulting Firm to develop a Study on Financing and Commercial Components for the ASEAN Submarine Power Cable Framework. The consulting services (&ldquo;the Services&rdquo;) include assessing electricity demand and potential anchor off-takers along priority submarine power cable corridors; developing minimum investment-readiness and bankability criteria; evaluating financing strategies, risk allocation, and investor protection mechanisms; developing ownership, cost allocation, and operational governance options; establishing harmonised commercial and settlement principles for cross-border electricity trading; and developing and applying an investment readiness maturity assessment tool to identify gaps, prioritise submarine interconnection pr",
+  "summary": "Request for Expression of Interest. CS. Project: Accelerating Sustainable Energy Transition Program (P181555). [EXTENDED] The ASEAN Centre for Energy (ACE) has received financing from the World Bank toward the cost of the Clean Energy and Power Trade Development in Southeast Asia Project as Phase 1 of the Multi-Phase Programmatic Approach Accelerating Sustainable Energy Transition/MPA ASET (P181555) and intends to apply part of the proceeds for Consulting Firm to develop a Study on Financing and Commercial Components for the ASEAN Submarine Power Cable Framework. The consulting services (“the Services”) include assessing electricity demand and potential anchor off-takers along priority submarine power cable corridors; developing minimum investment-readiness and bankability criteria; evaluating financing strategies, risk allocation, and investor protection mechanisms; developing ownership, cost allocation, and operational governance options; establishing harmonised commercial and settlement principles for cross-border electricity trading; and developing and applying an investment readiness maturity assessment tool to identify gaps, prioritise submarine interconnection projects, and ",
   "countries": [
    "ASEAN-wide"
   ],
@@ -1774,7 +1968,7 @@
   "source": "worldbank",
   "kind": "tender",
   "funder": "World Bank – Nurturing Early Skills through Technology",
-  "summary": "Request for Expression of Interest. CS. Project: Nurturing Early Skills through Technology (P509852). TERMS OF REFERENCE National Individual Consultant Site Engineer (One Position) Title Site Engineer Contractual Arrangement Local Recruitment Expected Start Date December 9th 2026 Contract Duration Eight (8) months (December 2026 &ndash; August 2027), with possibility of extension subject to satisfactory performance, project needs, and availability of funding. Level of Input Full-time Project Nurturing Early Skills through Technology (NEST) Project Financing Partner The World Bank Hiring Organization Shanti Volunteer Association (SVA) Duty Station Battambang Province (covering project sites in Kos Kralar, Ek Phnom and Thmar Kaul Districts) Contract Type Time Based 1. Background The Nurturing Early Skills through Technology (NEST) Project is funded by the Japan Social Development Fund (JSDF) and administered by the World Bank. The Project is implemented by Shanti Volunteer Association (SVA) in close collaboration with the Ministry of Education, Youth and Sport (MoEYS) of Cambodia. The Project aims to enhance access to and quality of Early Childhood Education (ECE) through the promoti",
+  "summary": "Request for Expression of Interest. CS. Project: Nurturing Early Skills through Technology (P509852). TERMS OF REFERENCE National Individual Consultant Site Engineer (One Position) Title Site Engineer Contractual Arrangement Local Recruitment Expected Start Date December 9th 2026 Contract Duration Eight (8) months (December 2026 – August 2027), with possibility of extension subject to satisfactory performance, project needs, and availability of funding. Level of Input Full-time Project Nurturing Early Skills through Technology (NEST) Project Financing Partner The World Bank Hiring Organization Shanti Volunteer Association (SVA) Duty Station Battambang Province (covering project sites in Kos Kralar, Ek Phnom and Thmar Kaul Districts) Contract Type Time Based 1. Background The Nurturing Early Skills through Technology (NEST) Project is funded by the Japan Social Development Fund (JSDF) and administered by the World Bank. The Project is implemented by Shanti Volunteer Association (SVA) in close collaboration with the Ministry of Education, Youth and Sport (MoEYS) of Cambodia. The Project aims to enhance access to and quality of Early Childhood Education (ECE) through the promotion of ",
   "countries": [
    "Cambodia"
   ],
@@ -1829,7 +2023,7 @@
   "source": "worldbank",
   "kind": "tender",
   "funder": "World Bank – Support to Parcelization of Lands for Individual Titling (SPLIT) Project",
-  "summary": "Invitation for Bids. NC. Project: Support to Parcelization of Lands for Individual Titling (SPLIT) Project (P172399). Invitation to Bid for Subdivision Survey of the Collective CLOAs 2026-C The Government of the Philippines (GOP) has received a Loan from the World Bank toward the cost of Support to Parcelization of Lands for Individual Titling Project (Project SPLIT), and it intends to apply part of the proceeds of this Loan to payments under the contract for Subdivision Survey 2026-C &ndash; SPLIT-REF-063I . The Department of Agrarian Reform now invites bids for the various works with description, Estimated Project Costs (EPCs) and required completion period for the lots as indicated the below table. Bidders must have completed, within the last ten (10) years, at most two (2) contracts that are similar in nature and complexity to the subject lot being bid, with the total aggregate contract value of both contracts is equivalent to at least fifty percent (50%) of the Estimated Project Cost (EPC) of the lot. The contracts submitted must have been satisfactorily completed and must be supported by relevant documentary evidence. The description of an eligible bidder is contained in the ",
+  "summary": "Invitation for Bids. NC. Project: Support to Parcelization of Lands for Individual Titling (SPLIT) Project (P172399). Invitation to Bid for Subdivision Survey of the Collective CLOAs 2026-C The Government of the Philippines (GOP) has received a Loan from the World Bank toward the cost of Support to Parcelization of Lands for Individual Titling Project (Project SPLIT), and it intends to apply part of the proceeds of this Loan to payments under the contract for Subdivision Survey 2026-C – SPLIT-REF-063I . The Department of Agrarian Reform now invites bids for the various works with description, Estimated Project Costs (EPCs) and required completion period for the lots as indicated the below table. Bidders must have completed, within the last ten (10) years, at most two (2) contracts that are similar in nature and complexity to the subject lot being bid, with the total aggregate contract value of both contracts is equivalent to at least fifty percent (50%) of the Estimated Project Cost (EPC) of the lot. The contracts submitted must have been satisfactorily completed and must be supported by relevant documentary evidence. The description of an eligible bidder is contained in the Biddin",
   "countries": [
    "Philippines"
   ],
@@ -1881,7 +2075,7 @@
   "source": "worldbank",
   "kind": "tender",
   "funder": "World Bank – Indonesia Mass Transit Project",
-  "summary": "Invitation for Bids. CW. Project: Indonesia Mass Transit Project (P169548). Specific Procurement Notice Request for Bids Employer : Ministry of Transportation Project : Indonesia Mass Transit Project (IMTP) Contract title : Construction of BRT BBMA &ndash; Cinunuk Depot Country : Republic of Indonesia Loan/Credit/Grant No. : IBRD No. 9340-ID RFB No. : ID-DGLT-574728-CW-RFB Issued on : 5 November 2026 The Republic of Indonesia has received financing from the World Bank toward the cost of the Indonesia Mass Transit Project and intends to apply part of the proceeds toward payments under the contract for the Construction of BRT BBMA &ndash; Cinunuk Depot. The Directorate General of Land Transport now invites Bids from eligible Bidders for the Construction of BRT BBMA &ndash; Cinunuk Depot in Bandung Regency, West Java Province. The construction period is 240 calendar days from the issuance date of the Work Commencement Order (SPMK). Bidding will be conducted through national open competitive procurement using a Request for Bids, applying the harmonized bidding document for Pekerjaan Konstruksi &ndash; Pascakualifikasi, in accordance with the applicable National Procurement Procedures, ",
+  "summary": "Invitation for Bids. CW. Project: Indonesia Mass Transit Project (P169548). Specific Procurement Notice Request for Bids Employer : Ministry of Transportation Project : Indonesia Mass Transit Project (IMTP) Contract title : Construction of BRT BBMA – Cinunuk Depot Country : Republic of Indonesia Loan/Credit/Grant No. : IBRD No. 9340-ID RFB No. : ID-DGLT-574728-CW-RFB Issued on : 5 November 2026 The Republic of Indonesia has received financing from the World Bank toward the cost of the Indonesia Mass Transit Project and intends to apply part of the proceeds toward payments under the contract for the Construction of BRT BBMA – Cinunuk Depot. The Directorate General of Land Transport now invites Bids from eligible Bidders for the Construction of BRT BBMA – Cinunuk Depot in Bandung Regency, West Java Province. The construction period is 240 calendar days from the issuance date of the Work Commencement Order (SPMK). Bidding will be conducted through national open competitive procurement using a Request for Bids, applying the harmonized bidding document for Pekerjaan Konstruksi – Pascakualifikasi, in accordance with the applicable National Procurement Procedures, the World Bank’s Procure",
   "countries": [
    "Indonesia"
   ],
@@ -2008,6 +2202,32 @@
   "raw_status": ""
  },
  {
+  "title": "Open Call for ASEAN-Japan Next-Generation Business Opportunities Project",
+  "url": "https://www2.fundsforngos.org/community-development-2/call-for-proposals-future-business-opportunities-for-asean-and-japan-s/",
+  "source": "fundsforngos_asean",
+  "kind": "grant",
+  "funder": "",
+  "summary": "The Association for Overseas Technical Cooperation and Sustainable Partnerships (AOTS) invites applications for the \"Project of Future Business Opportunities for ASEAN and Japan’s Next Generation for Enhancing Industries during Singapore’s ASEAN Chairmanship.\" This initiative is supported by the AEM-METI Economic and Industrial Cooperation Committee (AMEICC) through its FY2022 Supplementary Budget. The deadline for submissions is 27 November 2026 at 4:00 p.m. Japan time. The post Open Call for ASEAN-Japan Next-Generation Business Opportunities Project first appeared on fundsforNGOs .",
+  "countries": [
+   "Singapore"
+  ],
+  "themes": [],
+  "open_date": "2026-11-16",
+  "deadline": "2026-11-27",
+  "funding": "",
+  "eligibility": "",
+  "requirements": "",
+  "reference": "",
+  "recurring": "",
+  "notes": "",
+  "id": "104712a810d4",
+  "status": "closing_soon",
+  "score": 35,
+  "first_seen": "2026-11-16",
+  "last_seen": "2026-11-16",
+  "raw_status": ""
+ },
+ {
   "title": "Supply and Delivery of Boat",
   "url": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=51720",
   "source": "undp_procurement",
@@ -2091,7 +2311,7 @@
   "source": "worldbank",
   "kind": "tender",
   "funder": "World Bank – Improving Frontline Workers Performance in Education and Health Project",
-  "summary": "Request for Expression of Interest. CS. Project: Improving Frontline Workers Performance in Education and Health Project (P507442). Dear Manuv, I would like to submit the information for the Expression of Interest (EOI) for the Technical Assistance (TA) position in Administration REQUEST FOR EXPRESS OF INTEREST Time-Based National Consultant for P osition of Project Management TA and Administration TA The Government of Lao PDR (GoL) has secured an International Development Association (IDA) credit of US$35 million from the World Bank to implement the Improving Frontline Workers Performance in Education and Health Project (P507442). The project aims to strengthen human capital by enhancing the performance and management of frontline workers in education and health sectors. It is aligned with the World Bank&rsquo;s Country Partnership Framework (2023&ndash;2026) and national strategies, including the National Human Resources for Health Development Strategy and reforms under the Ministry of Home Affairs (MOHA). The project is expected to be approved on January12, 2026, and close on April 15, 2031. PDO: To enhance the performance of pre- and primary education and health frontline worke",
+  "summary": "Request for Expression of Interest. CS. Project: Improving Frontline Workers Performance in Education and Health Project (P507442). Dear Manuv, I would like to submit the information for the Expression of Interest (EOI) for the Technical Assistance (TA) position in Administration REQUEST FOR EXPRESS OF INTEREST Time-Based National Consultant for P osition of Project Management TA and Administration TA The Government of Lao PDR (GoL) has secured an International Development Association (IDA) credit of US$35 million from the World Bank to implement the Improving Frontline Workers Performance in Education and Health Project (P507442). The project aims to strengthen human capital by enhancing the performance and management of frontline workers in education and health sectors. It is aligned with the World Bank’s Country Partnership Framework (2023–2026) and national strategies, including the National Human Resources for Health Development Strategy and reforms under the Ministry of Home Affairs (MOHA). The project is expected to be approved on January12, 2026, and close on April 15, 2031. PDO: To enhance the performance of pre- and primary education and health frontline workers in Lao PD",
   "countries": [
    "Laos"
   ],
@@ -2145,7 +2365,7 @@
   "source": "worldbank",
   "kind": "tender",
   "funder": "World Bank – Improving Frontline Workers Performance in Education and Health Project",
-  "summary": "Request for Expression of Interest. CS. Project: Improving Frontline Workers Performance in Education and Health Project (P507442). Dear Manuv, I would like to submit the information for the Expression of Interest (EOI) for the Technical Assistance TA Project Management. Terms of Reference and Scope of Services Project LAO PDR: Improving Frontline Worker Performance in Education and Health Project Title Procurement Consultant Duration 12 months with possibility of extensions Reporting to Report to Project Manager, Project Director of the Frontline Project: Improving Frontline Worker Performance in Education and Health, DPF, DHP, HPC, Ministry of Health Background The Government of Lao PDR (GoL) has secured an International Development Association (IDA) credit of US$35 million from the World Bank to implement the Improving Frontline Workers Performance in Education and Health Project (P507442). The project aims to strengthen human capital by enhancing the performance and management of frontline workers in education and health sectors. It is aligned with the World Bank&rsquo;s Country Partnership Framework (2023&ndash;2026) and national strategies, including the National Human Resour",
+  "summary": "Request for Expression of Interest. CS. Project: Improving Frontline Workers Performance in Education and Health Project (P507442). Dear Manuv, I would like to submit the information for the Expression of Interest (EOI) for the Technical Assistance TA Project Management. Terms of Reference and Scope of Services Project LAO PDR: Improving Frontline Worker Performance in Education and Health Project Title Procurement Consultant Duration 12 months with possibility of extensions Reporting to Report to Project Manager, Project Director of the Frontline Project: Improving Frontline Worker Performance in Education and Health, DPF, DHP, HPC, Ministry of Health Background The Government of Lao PDR (GoL) has secured an International Development Association (IDA) credit of US$35 million from the World Bank to implement the Improving Frontline Workers Performance in Education and Health Project (P507442). The project aims to strengthen human capital by enhancing the performance and management of frontline workers in education and health sectors. It is aligned with the World Bank’s Country Partnership Framework (2023–2026) and national strategies, including the National Human Resources for Heal",
   "countries": [
    "Laos"
   ],
@@ -2173,7 +2393,7 @@
   "source": "worldbank",
   "kind": "tender",
   "funder": "World Bank – Skills for Better Jobs Project",
-  "summary": "Request for Expression of Interest. CS. Project: Skills for Better Jobs Project (P179159). KINGDOM OF CAMBODIA NATION RELIGION KING Skills for Better Jobs Project (SBJ) IDA Credit No. 75480-KH Request for Expression of Interest (REoI) CONSULTING SERVICES OF THE FIRM to Consultancy Firm to Support the Upgrading of the Job Matching Portal (Digital) of the National Employment Agency and Developing the Labour Market Information System (LMIS) (MLVT-CS-20-A) Cambodia Ministry of Labour and Vocational Training (MLVT) Skills for Better Jobs Project (SBJ) World Bank: IDA Credit No. 75480-KH Request for Expression of Interest Date: 03 November 2026 Procurement Tittle: Consultancy Firm to Support the Upgrading of the Job Matching Portal (Digital) of the National Employment Agency and Developing the Labour Market Information System (LMIS) Procurement No.: MLVT-CS-20-A The Royal Government of Cambodia has received financing from the World Bank toward the cost of the Skills for Better Jobs Project (SBJ) and intends to apply part of the proceeds for consulting services. The consulting services (&ldquo;the Services&rdquo;) is to address these challenges, MLVT intends to strengthen two key componen",
+  "summary": "Request for Expression of Interest. CS. Project: Skills for Better Jobs Project (P179159). KINGDOM OF CAMBODIA NATION RELIGION KING Skills for Better Jobs Project (SBJ) IDA Credit No. 75480-KH Request for Expression of Interest (REoI) CONSULTING SERVICES OF THE FIRM to Consultancy Firm to Support the Upgrading of the Job Matching Portal (Digital) of the National Employment Agency and Developing the Labour Market Information System (LMIS) (MLVT-CS-20-A) Cambodia Ministry of Labour and Vocational Training (MLVT) Skills for Better Jobs Project (SBJ) World Bank: IDA Credit No. 75480-KH Request for Expression of Interest Date: 03 November 2026 Procurement Tittle: Consultancy Firm to Support the Upgrading of the Job Matching Portal (Digital) of the National Employment Agency and Developing the Labour Market Information System (LMIS) Procurement No.: MLVT-CS-20-A The Royal Government of Cambodia has received financing from the World Bank toward the cost of the Skills for Better Jobs Project (SBJ) and intends to apply part of the proceeds for consulting services. The consulting services (“the Services”) is to address these challenges, MLVT intends to strengthen two key components of the LM",
   "countries": [
    "Cambodia"
   ],
@@ -2306,7 +2526,7 @@
   "source": "worldbank",
   "kind": "tender",
   "funder": "World Bank – Philippine Rural Development Project Scale-up",
-  "summary": "Invitation for Bids. CW. Project: Philippine Rural Development Project Scale-up (P180379). Invitation to Bid for Construction of Sinai-Biayon-Poblacion Alto-Poblacion Bajo-Liwanag-San Juan -Dampalan Level II Potable Water System (PWS) Subproject ID No. PRDP-SU-IB-R009-ZDN-009-SER-001-2026-PWS 1. The Government of the Philippines (GOP) has received a Loan from the World Bank toward the cost of Philippine Rural Development Project Scale Up, and it intends to apply part of the proceeds of this Loan to payments under the contract for Construction of Sinai-Biayon-Poblacion Alto-Poblacion Bajo-Liwanag-San Juan -Dampalan Level II Potable Water System (PWS) with Subproject ID No. PRDP-SU-IB-RO09-ZDN-009-SER-001-2026-PWS. 2. The Municipal Government of Sergio Osme&ntilde;a , Zamboanga del Norte , implementing partner of the Department of Agriculture, now invites bids for the Construction of Sinai-Biayon-Poblacion Alto-Poblacion Bajo-Liwanag-San Juan -Dampalan Level II Potable Water System (PWS) with Estimated Project Cost (EPC) in the amount of One Hundred Nine Million Nine Hundred Ninety-Eight Thousand Pesos (Php 109,998,000.00) . Completion of the Works is required in 303 calendar days. B",
+  "summary": "Invitation for Bids. CW. Project: Philippine Rural Development Project Scale-up (P180379). Invitation to Bid for Construction of Sinai-Biayon-Poblacion Alto-Poblacion Bajo-Liwanag-San Juan -Dampalan Level II Potable Water System (PWS) Subproject ID No. PRDP-SU-IB-R009-ZDN-009-SER-001-2026-PWS 1. The Government of the Philippines (GOP) has received a Loan from the World Bank toward the cost of Philippine Rural Development Project Scale Up, and it intends to apply part of the proceeds of this Loan to payments under the contract for Construction of Sinai-Biayon-Poblacion Alto-Poblacion Bajo-Liwanag-San Juan -Dampalan Level II Potable Water System (PWS) with Subproject ID No. PRDP-SU-IB-RO09-ZDN-009-SER-001-2026-PWS. 2. The Municipal Government of Sergio Osmeña , Zamboanga del Norte , implementing partner of the Department of Agriculture, now invites bids for the Construction of Sinai-Biayon-Poblacion Alto-Poblacion Bajo-Liwanag-San Juan -Dampalan Level II Potable Water System (PWS) with Estimated Project Cost (EPC) in the amount of One Hundred Nine Million Nine Hundred Ninety-Eight Thousand Pesos (Php 109,998,000.00) . Completion of the Works is required in 303 calendar days. Bidders ",
   "countries": [
    "Philippines"
   ],
@@ -2362,7 +2582,7 @@
   "source": "worldbank",
   "kind": "tender",
   "funder": "World Bank – ID for Inclusive Service Delivery and Digital Transformation in Indonesia",
-  "summary": "Invitation for Bids. GO. Project: ID for Inclusive Service Delivery and Digital Transformation in Indonesia (P175218). Request for Bids Goods (Two-Envelope Bidding Process) Country: Indonesia Name of Project: ID for Inclusive Service Delivery and Digital Transformation in Indonesia Contract Title: Procurement of Storage for DC Co-Location Loan No./Credit No./ Grant No.: IBRD-9520-ID RFB Reference No.: ID-DITJEN DUKCAPIL-560355-GO-RFB 1. The Republic of Indonesia has received financing from the World Bank toward the cost of the ID for Inclusive Service Delivery and Digital Transformation in Indonesia, and intends to apply part of the proceeds toward payments under the contract for Procurement of Storage for DC Co-Location . &ldquo;For this contract, the Borrower shall process the payments using the Direct Payment disbursement method, as defined in the World Bank&rsquo;s Disbursement Guidelines for Investment Project Financing, except for those payments, which the contract provides to be made through letter of credit.&rdquo; 2. The Directorate General of Population and Civil Registration now invites sealed Bids from eligible Bidders for providing Procurement of Storage for DC Co-Loca",
+  "summary": "Invitation for Bids. GO. Project: ID for Inclusive Service Delivery and Digital Transformation in Indonesia (P175218). Request for Bids Goods (Two-Envelope Bidding Process) Country: Indonesia Name of Project: ID for Inclusive Service Delivery and Digital Transformation in Indonesia Contract Title: Procurement of Storage for DC Co-Location Loan No./Credit No./ Grant No.: IBRD-9520-ID RFB Reference No.: ID-DITJEN DUKCAPIL-560355-GO-RFB 1. The Republic of Indonesia has received financing from the World Bank toward the cost of the ID for Inclusive Service Delivery and Digital Transformation in Indonesia, and intends to apply part of the proceeds toward payments under the contract for Procurement of Storage for DC Co-Location . “For this contract, the Borrower shall process the payments using the Direct Payment disbursement method, as defined in the World Bank’s Disbursement Guidelines for Investment Project Financing, except for those payments, which the contract provides to be made through letter of credit.” 2. The Directorate General of Population and Civil Registration now invites sealed Bids from eligible Bidders for providing Procurement of Storage for DC Co-Location. The procurem",
   "countries": [
    "Indonesia"
   ],
@@ -2487,6 +2707,34 @@
   "id": "5546d350dca7",
   "status": "open",
   "score": 90,
+  "first_seen": "2026-11-16",
+  "last_seen": "2026-11-16",
+  "raw_status": ""
+ },
+ {
+  "title": "ASEE – ASEAN Smart Energy & Energy Storage Expo 2027",
+  "url": "https://fundsforcompanies.fundsforngos.org/events/asee-asean-smart-energy-energy-storage-expo-2027/",
+  "source": "fundsforngos_asean",
+  "kind": "grant",
+  "funder": "",
+  "summary": "Deadline Date: March 19, 2027 The ASEE 2027 is seeking applications to support innovation, collaboration, and investment in smart energy and energy storage technologies across Southeast Asia. The focus areas of this event include solar photovoltaic technologies, battery and energy storage systems, smart grid and digital energy solutions, e-mobility and EV charging infrastructure, and integrated... [Read More] The post ASEE – ASEAN Smart Energy & Energy Storage Expo 2027 first appeared on Funds for Companies .",
+  "countries": [
+   "ASEAN-wide"
+  ],
+  "themes": [
+   "Startups & Innovation"
+  ],
+  "open_date": "2026-05-07",
+  "deadline": "2027-03-19",
+  "funding": "",
+  "eligibility": "",
+  "requirements": "",
+  "reference": "",
+  "recurring": "",
+  "notes": "",
+  "id": "f017074eb95a",
+  "status": "open",
+  "score": 85,
   "first_seen": "2026-11-16",
   "last_seen": "2026-11-16",
   "raw_status": ""
@@ -2814,62 +3062,6 @@
   "raw_status": ""
  },
  {
-  "title": "ASEAN SOAR Together – Acceleration Programme",
-  "url": "https://fundsforcompanies.fundsforngos.org/training-and-mentorship/asean-soar-together-acceleration-programme/",
-  "source": "fundsforngos_asean",
-  "kind": "grant",
-  "funder": "",
-  "summary": "Deadline Date: May 10, 2026 The ASEAN SOAR Together Acceleration Programme offers MSMEs a six-month intensive journey to strengthen digital business capabilities and expand sustainably across the ASEAN region. The programme focuses on capacity-building and business acceleration, hands-on digital selling skills through TikTok and TikTok Shop, expert mentorship and strategic support, regional networking opportunities, regional... [Read More] The post ASEAN SOAR Together – Acceleration Programme first appeared on Funds for Companies .",
-  "countries": [
-   "ASEAN-wide"
-  ],
-  "themes": [
-   "Future of Work & Skills"
-  ],
-  "open_date": "2026-04-13",
-  "deadline": null,
-  "funding": "",
-  "eligibility": "",
-  "requirements": "",
-  "reference": "",
-  "recurring": "",
-  "notes": "",
-  "id": "bdb5448b3f8c",
-  "status": "unknown",
-  "score": 65,
-  "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16",
-  "raw_status": ""
- },
- {
-  "title": "ASEAN SOAR Together: Driving Digital Commerce Growth",
-  "url": "https://fundsforcompanies.fundsforngos.org/events/asean-soar-together-driving-digital-commerce-growth/",
-  "source": "fundsforngos_asean",
-  "kind": "grant",
-  "funder": "",
-  "summary": "Deadline Date: April 26, 2026 The ASEAN SOAR Together Masterclass offers an engaging opportunity for individuals and businesses to explore how digital commerce can accelerate growth across Southeast Asia. The programme focuses on previewing the overall learning experience, exploring growth strategies in digital marketing, e-commerce, and content creation, gaining insights from TikTok Shop experts on... [Read More] The post ASEAN SOAR Together: Driving Digital Commerce Growth first appeared on Funds for Companies .",
-  "countries": [
-   "ASEAN-wide"
-  ],
-  "themes": [
-   "Digital Economy & Trade"
-  ],
-  "open_date": "2026-04-15",
-  "deadline": null,
-  "funding": "",
-  "eligibility": "",
-  "requirements": "",
-  "reference": "",
-  "recurring": "",
-  "notes": "",
-  "id": "bdcf9d901766",
-  "status": "unknown",
-  "score": 65,
-  "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16",
-  "raw_status": ""
- },
- {
   "title": "ASEAN champions inclusive and innovative workforce development at Future of Work Forum - ASEAN Main Portal",
   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORmM1X0xiQU9TSW5xLXNwR0RzMDFxSURJcjhBYl93WWpIMWp1QTRTY2ZmZzlJVzRZVE5BUS1nVkFoRGdEUm1ldHJuTXNxTmI0bVNmV0FiY1VOU3kzWktacEVzaGV0NWc2X0RCTlU4WDZiTklTTXNoOWlQQ1VJU05xcjdYYVd4MTNXNWYtUm9FaEdfZ0ZSdGQtbkhBaks0cXh1dDd2YkZ4VFI?oc=5",
   "source": "google_news_leads",
@@ -3042,7 +3234,7 @@
   "source": "astnet",
   "kind": "cfp",
   "funder": "ASEAN COSTI",
-  "summary": "Thursday, 5th November 2026 We are pleased to share the e-brochure of the ASEAN-New Zealand Vision Fund (ANZVF). The ANZVF is a funding mechanism that supports the implementation of ASEAN &#8230; ASEAN-New Zealand Vision Fund (ANZVF) Read More &#187;",
+  "summary": "Thursday, 5th November 2026 We are pleased to share the e-brochure of the ASEAN-New Zealand Vision Fund (ANZVF). The ANZVF is a funding mechanism that supports the implementation of ASEAN … ASEAN-New Zealand Vision Fund (ANZVF) Read More »",
   "countries": [
    "ASEAN-wide"
   ],
@@ -3086,34 +3278,6 @@
   "id": "145278a6c358",
   "status": "unknown",
   "score": 65,
-  "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16",
-  "raw_status": ""
- },
- {
-  "title": "ASEE – ASEAN Smart Energy & Energy Storage Expo 2027",
-  "url": "https://fundsforcompanies.fundsforngos.org/events/asee-asean-smart-energy-energy-storage-expo-2027/",
-  "source": "fundsforngos_asean",
-  "kind": "grant",
-  "funder": "",
-  "summary": "Deadline Date: March 19, 2027 The ASEE 2027 is seeking applications to support innovation, collaboration, and investment in smart energy and energy storage technologies across Southeast Asia. The focus areas of this event include solar photovoltaic technologies, battery and energy storage systems, smart grid and digital energy solutions, e-mobility and EV charging infrastructure, and integrated... [Read More] The post ASEE – ASEAN Smart Energy & Energy Storage Expo 2027 first appeared on Funds for Companies .",
-  "countries": [
-   "ASEAN-wide"
-  ],
-  "themes": [
-   "Startups & Innovation"
-  ],
-  "open_date": "2026-05-07",
-  "deadline": null,
-  "funding": "",
-  "eligibility": "",
-  "requirements": "",
-  "reference": "",
-  "recurring": "",
-  "notes": "",
-  "id": "f017074eb95a",
-  "status": "unknown",
-  "score": 80,
   "first_seen": "2026-11-16",
   "last_seen": "2026-11-16",
   "raw_status": ""
@@ -3229,35 +3393,6 @@
   "raw_status": ""
  },
  {
-  "title": "CFAs: UN Women WEPs Corporate Action Lab Philippines",
-  "url": "https://fundsforcompanies.fundsforngos.org/events/cfas-un-women-weps-corporate-action-lab-philippines/",
-  "source": "fundsforngos_asean",
-  "kind": "grant",
-  "funder": "",
-  "summary": "Deadline Date: August 15, 2026 The UN Women WEPs Corporate Action Lab Philippines aims to help businesses design and test solutions that promote equal access to skills, training, and employment opportunities for diverse groups. The key focus areas include Gender Equality, Disability and Social Inclusion (GEDSI), gender-responsive training models, equitable career pathways, skills development, learning... [Read More] The post CFAs: UN Women WEPs Corporate Action Lab Philippines first appeared on Funds for Companies .",
-  "countries": [
-   "Philippines"
-  ],
-  "themes": [
-   "Development & Inclusion",
-   "Future of Work & Skills"
-  ],
-  "open_date": "2026-07-17",
-  "deadline": null,
-  "funding": "",
-  "eligibility": "",
-  "requirements": "",
-  "reference": "",
-  "recurring": "",
-  "notes": "",
-  "id": "76fb6897e098",
-  "status": "unknown",
-  "score": 70,
-  "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16",
-  "raw_status": ""
- },
- {
   "title": "Call For Applications ASEAN Guardians Against Scam",
   "url": "https://aseanfoundation.org/call-for-application/call-for-applications-asean-guardians-against-scam/",
   "source": "asean_foundation",
@@ -3291,7 +3426,7 @@
   "source": "astnet",
   "kind": "cfp",
   "funder": "ASEAN COSTI",
-  "summary": "ASEAN Innovators, Are You Ready? The 4th China‑ASEAN Innovation &#38; Entrepreneurship Competition (CAIEC) 2026 is officially OPEN! Got an AI‑powered idea in industry, agriculture, healthcare, education, culture, finance, or logistics? &#8230; Call for Application: the 4th China‑ASEAN Innovation &#38; Entrepreneurship Competition (CAIEC) 2026 Read More &#187;",
+  "summary": "ASEAN Innovators, Are You Ready? The 4th China‑ASEAN Innovation & Entrepreneurship Competition (CAIEC) 2026 is officially OPEN! Got an AI‑powered idea in industry, agriculture, healthcare, education, culture, finance, or logistics? … Call for Application: the 4th China‑ASEAN Innovation & Entrepreneurship Competition (CAIEC) 2026 Read More »",
   "countries": [
    "ASEAN-wide"
   ],
@@ -3453,35 +3588,7 @@
   "raw_status": ""
  },
  {
-  "title": "Call for Applications: Generation Next Grant Program",
-  "url": "https://fundsforcompanies.fundsforngos.org/grant/call-for-applications-generation-next-grant-program/",
-  "source": "fundsforngos_asean",
-  "kind": "grant",
-  "funder": "",
-  "summary": "Deadline Date: May 05, 2026 The Generation Next is a fully funded grant program designed to empower early-stage female entrepreneurs from ASEAN and Australia to scale their businesses globally and drive economic growth. The programme focuses on accelerating business growth and economic empowerment for women founders, building cross-border connections, scaling startups on a global stage,... [Read More] The post Call for Applications: Generation Next Grant Program first appeared on Funds for Companies .",
-  "countries": [
-   "ASEAN-wide"
-  ],
-  "themes": [
-   "Development & Inclusion"
-  ],
-  "open_date": "2026-03-31",
-  "deadline": null,
-  "funding": "",
-  "eligibility": "",
-  "requirements": "",
-  "reference": "",
-  "recurring": "",
-  "notes": "",
-  "id": "c31c6122a66b",
-  "status": "unknown",
-  "score": 80,
-  "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16",
-  "raw_status": ""
- },
- {
-  "title": "Call for Proposals &ndash; Workshops to Stop the Spread of mis/disinformation",
+  "title": "Call for Proposals – Workshops to Stop the Spread of mis/disinformation",
   "url": "https://www.grants.gov/search-results-detail/343013",
   "source": "grants_gov",
   "kind": "grant",
@@ -3618,7 +3725,7 @@
   "source": "worldbank",
   "kind": "tender",
   "funder": "World Bank – Cambodia Regional Connectivity Improvement Project Phase 1",
-  "summary": "General Procurement Notice. . Project: Cambodia Regional Connectivity Improvement Project Phase 1 (P510547). Kingdom of Cambodia Nation Religion King Ministry of Public Works and Transport GENERAL PROCUREMENT NOTICE Country : Kingdom of Cambodia Project Name : Cambodia Regional Connectivity Improvement Project Phase 1 (CRCIP) Project ID No. : P510547 Project Implementing Agency : Ministry of Public Works and Transport (MPWT); The Ministry of Public Works and Transport (MPWT) of the Royal Government of Cambodia (RGC) has applied for financing support from the World Bank&#39;s (WB) International Development Association (IDA) to implement the CRCIP Phase 1 of Multiphase Programmatic Approach (MPA) with an implementation period of eight years starting in 2026. The CRCIP will support inclusive growth and job creation in Cambodia through targeted investments in regional road infrastructure and the enhancement of institutional capacity in logistics and trade facilitation. The Project Development Objective is to improve resilient transport connectivity along selected sections of the Asian Highway 21 regional corridor and increase national logistics management capacity. MPWT is responsible ",
+  "summary": "General Procurement Notice. . Project: Cambodia Regional Connectivity Improvement Project Phase 1 (P510547). Kingdom of Cambodia Nation Religion King Ministry of Public Works and Transport GENERAL PROCUREMENT NOTICE Country : Kingdom of Cambodia Project Name : Cambodia Regional Connectivity Improvement Project Phase 1 (CRCIP) Project ID No. : P510547 Project Implementing Agency : Ministry of Public Works and Transport (MPWT); The Ministry of Public Works and Transport (MPWT) of the Royal Government of Cambodia (RGC) has applied for financing support from the World Bank's (WB) International Development Association (IDA) to implement the CRCIP Phase 1 of Multiphase Programmatic Approach (MPA) with an implementation period of eight years starting in 2026. The CRCIP will support inclusive growth and job creation in Cambodia through targeted investments in regional road infrastructure and the enhancement of institutional capacity in logistics and trade facilitation. The Project Development Objective is to improve resilient transport connectivity along selected sections of the Asian Highway 21 regional corridor and increase national logistics management capacity. MPWT is responsible for ",
   "countries": [
    "Cambodia"
   ],
@@ -3640,35 +3747,6 @@
   "first_seen": "2026-11-16",
   "last_seen": "2026-11-16",
   "raw_status": "Published"
- },
- {
-  "title": "China-ASEAN Innovation & Entrepreneurship Competition",
-  "url": "https://fundsforcompanies.fundsforngos.org/events/china-asean-innovation-entrepreneurship-competition/",
-  "source": "fundsforngos_asean",
-  "kind": "grant",
-  "funder": "",
-  "summary": "Deadline Date: March 31, 2026 The 4th China-ASEAN Innovation &#38; Entrepreneurship Competition (CAIEC) 2026 is now open for AI-powered innovators across China and ASEAN to pitch their ideas, connect across borders, and compete on a regional stage. The competition focuses on the innovative application of artificial intelligence technology, covering a wide range of AI application... [Read More] The post China-ASEAN Innovation & Entrepreneurship Competition first appeared on Funds for Companies .",
-  "countries": [
-   "ASEAN-wide"
-  ],
-  "themes": [
-   "AI & Data",
-   "Startups & Innovation"
-  ],
-  "open_date": "2026-02-10",
-  "deadline": null,
-  "funding": "",
-  "eligibility": "",
-  "requirements": "",
-  "reference": "",
-  "recurring": "",
-  "notes": "",
-  "id": "61ae01dbdcc9",
-  "status": "unknown",
-  "score": 85,
-  "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16",
-  "raw_status": ""
  },
  {
   "title": "Cooperative Agreement to Support a Human Abuse Potential Study of Botanical Kratom (U01 Clinical Trial Required)",
@@ -4132,32 +4210,6 @@
   "raw_status": "Published"
  },
  {
-  "title": "Open Call for ASEAN-Japan Next-Generation Business Opportunities Project",
-  "url": "https://www2.fundsforngos.org/community-development-2/call-for-proposals-future-business-opportunities-for-asean-and-japan-s/",
-  "source": "fundsforngos_asean",
-  "kind": "grant",
-  "funder": "",
-  "summary": "The Association for Overseas Technical Cooperation and Sustainable Partnerships (AOTS) invites applications for the \"Project of Future Business Opportunities for ASEAN and Japan’s Next Generation for Enhancing Industries during Singapore’s ASEAN Chairmanship.\" This initiative is supported by the AEM-METI Economic and Industrial Cooperation Committee (AMEICC) through its FY2022 Supplementary Budget. The deadline for submissions is 27 November 2026 at 4:00 p.m. Japan time. The post Open Call for ASEAN-Japan Next-Generation Business Opportunities Project first appeared on fundsforNGOs .",
-  "countries": [
-   "Singapore"
-  ],
-  "themes": [],
-  "open_date": "2026-11-16",
-  "deadline": null,
-  "funding": "",
-  "eligibility": "",
-  "requirements": "",
-  "reference": "",
-  "recurring": "",
-  "notes": "",
-  "id": "104712a810d4",
-  "status": "unknown",
-  "score": 35,
-  "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16",
-  "raw_status": ""
- },
- {
   "title": "Open Call for ASEAN-Japan Next-Generation Business Opportunities Project - fundsforNGOs - Grants and Resources for Sustainability",
   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMzF1LVpvSzVQUS1QR0hIQUxXOVR1enY3SWlYVEtuRmlKRURXa2V3VFVwNjYwVTlaMEFRSHF6eUlzXzZCVENYaGdGVUVKOXlqSEluUjRSaGo5MExXbnlSN0l0SFlXN0tydjIwTVpucmljcGc2UW9GaGV5T0dlSXdwYUZQeDhDNkpYVEZ0aHVweFRKZ25OZW1VSW54eWVWc3dHMW1MTl9FdzlmMFBfb1BiWVJ2WmhoVFVEUlNMTmc2bzQ2WjDSAcgBQVVfeXFMUDNJSHRVejBzOGYtMTAwTDVPeXFwUnpsSlFWRmV2UkxzaHpwSDN6TEpCcnoxT1RBVWJJWHBWQzZITDIzcTBwa3lWd3pfSVdaa3pLd0dNbURKMkxhUHd2bHlKVkR0NktfRjFzTGZFLWc2SElrTm5aUHBObVlEUnZtUHlGTnNNQmo0aFVLb1c4Y25QSWcweXU3eWpoWUI1YllMdjFxRmI3cWYwM1Nib212dUNmMmhNUzFiT2pqWVBDSTc4bFNwQlY2QXQ?oc=5",
   "source": "google_news_leads",
@@ -4177,32 +4229,6 @@
   "recurring": "",
   "notes": "News lead (fundsforNGOs - Grants and Resources for Sustainability) published 2026-11-16 — verify on the official site.",
   "id": "bd4e5b2d7e25",
-  "status": "unknown",
-  "score": 50,
-  "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16",
-  "raw_status": ""
- },
- {
-  "title": "Open Call: Grants to support Asean Changemakers",
-  "url": "https://fundsforcompanies.fundsforngos.org/grant/open-call-grants-to-support-asean-changemakers/",
-  "source": "fundsforngos_asean",
-  "kind": "grant",
-  "funder": "",
-  "summary": "Deadline Date: May 10, 2026 The AirAsia Foundation has launched its applications to support changemakers across ASEAN by providing resources, networks and encouragement to transform impactful ideas into reality. The programme focuses on initiatives that deliver long-term benefits to communities and the environment, with particular emphasis on sustainable travel, climate resilience, and other high-impact innovative... [Read More] The post Open Call: Grants to support Asean Changemakers first appeared on Funds for Companies .",
-  "countries": [
-   "ASEAN-wide"
-  ],
-  "themes": [],
-  "open_date": "2026-03-18",
-  "deadline": null,
-  "funding": "",
-  "eligibility": "",
-  "requirements": "",
-  "reference": "",
-  "recurring": "",
-  "notes": "",
-  "id": "016987c74383",
   "status": "unknown",
   "score": 50,
   "first_seen": "2026-11-16",
@@ -4366,32 +4392,6 @@
   "first_seen": "2026-11-16",
   "last_seen": "2026-11-16",
   "raw_status": "forecasted"
- },
- {
-  "title": "RFAs: Firm to Support Investment Readiness and Impact Acceleration (Cambodia)",
-  "url": "https://fundsforcompanies.fundsforngos.org/grant/rfas-firm-to-support-investment-readiness-and-impact-acceleration-cambodia/",
-  "source": "fundsforngos_asean",
-  "kind": "grant",
-  "funder": "",
-  "summary": "Deadline Date: June 05, 2026 The Firm to Support Investment Readiness &#38; Impact Acceleration initiative seeks to strengthen climate adaptation, green supply chain development, and investment readiness among selected companies in Cambodia through technical mentorship, climate-smart agriculture support, and financial linkage facilitation. The program focuses on diagnostic and supply chain climate-risk assessment, adaptation practices and... [Read More] The post RFAs: Firm to Support Investment Readiness and Impact Acceleration (Cambodia) first appeared on Funds for Companies .",
-  "countries": [
-   "Cambodia"
-  ],
-  "themes": [],
-  "open_date": "2026-05-27",
-  "deadline": null,
-  "funding": "",
-  "eligibility": "",
-  "requirements": "",
-  "reference": "",
-  "recurring": "",
-  "notes": "",
-  "id": "efb50f8c839a",
-  "status": "unknown",
-  "score": 50,
-  "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16",
-  "raw_status": ""
  },
  {
   "title": "RPIU6: Supply and delivery of ICT Equipment for RPIU FISHCRRM 1.2",
@@ -4640,7 +4640,7 @@
   "raw_status": "Published"
  },
  {
-  "title": "U.S. Embassy Phnom Penh &ndash; PAS Annual Program Statement",
+  "title": "U.S. Embassy Phnom Penh – PAS Annual Program Statement",
   "url": "https://www.grants.gov/search-results-detail/348863",
   "source": "grants_gov",
   "kind": "grant",
@@ -4776,7 +4776,7 @@
   "source": "astnet",
   "kind": "cfp",
   "funder": "ASEAN COSTI",
-  "summary": "The application deadline for the 4th China–ASEAN Innovation and Entrepreneurship Competition (CAIEC) 2026 has been extended! Do you have an AI-powered solution in industry, agriculture, healthcare, education, culture, finance, or &#8230; [DEADLINE EXTENDED] Call for Applications: The 4th China–ASEAN Innovation and Entrepreneurship Competition (CAIEC) 2026 Read More &#187;",
+  "summary": "The application deadline for the 4th China–ASEAN Innovation and Entrepreneurship Competition (CAIEC) 2026 has been extended! Do you have an AI-powered solution in industry, agriculture, healthcare, education, culture, finance, or … [DEADLINE EXTENDED] Call for Applications: The 4th China–ASEAN Innovation and Entrepreneurship Competition (CAIEC) 2026 Read More »",
   "countries": [
    "ASEAN-wide"
   ],
