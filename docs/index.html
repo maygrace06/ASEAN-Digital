@@ -95,6 +95,7 @@
 
 <aside id="drawer"><button class="lnk" onclick="closeD()">✕ Close</button><div id="dBody"></div></aside>
 
+<script src="data.js"></script>
 <script>
 const STAGES=["watching","shortlisted","preparing","submitted","awarded","rejected","withdrawn"];
 const LIVE=["open","closing_soon","forthcoming","unknown"];
@@ -104,7 +105,12 @@ const $=s=>document.querySelector(s), esc=s=>String(s??"").replace(/[&<>"]/g,c=>
 const today=new Date(new Date().toDateString());
 const days=d=>d?Math.round((new Date(d)-today)/864e5):null;
 
-fetch("data.json?"+Date.now()).then(r=>r.json()).then(d=>{DATA=d;init()}).catch(e=>{$("#rows").innerHTML=`<tr><td colspan=8>Could not load data.json — run <code>python -m tracker run</code> first. (${esc(e)})</td></tr>`});
+// Online (GitHub Pages): fetch fresh data.json. Opened from disk (file://):
+// fetch is blocked, so fall back to data.js loaded by the <script> tag above.
+(location.protocol==="file:" ? Promise.reject(new Error("file://")) : fetch("data.json?"+Date.now()).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}))
+  .catch(e=>{if(window.TRACKER_DATA)return window.TRACKER_DATA;throw e})
+  .then(d=>{DATA=d;init()})
+  .catch(e=>{$("#rows").innerHTML=`<tr><td colspan=8>Could not load the data — run <code>python -m tracker run</code> first. (${esc(e)})</td></tr>`});
 
 function opts(sel,vals){vals.forEach(v=>sel.insertAdjacentHTML("beforeend",`<option>${esc(v)}</option>`))}
 function uniq(f){return [...new Set(DATA.opportunities.flatMap(f))].filter(Boolean).sort()}

@@ -38,15 +38,27 @@ GitHub Actions runs it every day (06:17 Bangkok). Each source has its own `sched
 | id | Source | Type | Schedule |
 |---|---|---|---|
 | `grants_gov` | Grants.gov (US federal, keyword search incl. ASEAN countries) | API | daily |
-| `eu_portal` | EU Funding & Tenders Portal (open + forthcoming calls) | API | daily |
+| `eu_portal` | EU Funding & Tenders Portal (calls + EU external-action tenders) | API | daily |
 | `worldbank` | World Bank procurement notices, filtered to ASEAN countries | API | daily |
-| `fundsforngos_asean` | fundsforNGOs / fundsforCompanies ASEAN searches | RSS | daily |
+| `fundsforngos_asean` | fundsforNGOs latest feed + fundsforCompanies ASEAN search | RSS | daily |
+| `asia_foundation` | The Asia Foundation announcements (fellowships, grants, RFPs) | RSS | weekly |
+| `opportunity_desk` | Opportunity Desk (global; only ASEAN items kept) | RSS | daily |
+| `undp_procurement` | UNDP procurement notices, Asia-Pacific rows | HTML | daily |
 | `astnet` | ASEAN STI Network (ASTIF etc.) | RSS | weekly |
-| `us_mission_asean` | U.S. Mission to ASEAN NOFOs | RSS | weekly |
 | `google_news_leads` | Google News searches (leads to verify) | RSS | daily |
 | `asean_foundation` | ASEAN Foundation call for applications | HTML | weekly |
 | `manual` | Your hand-added list `data/manual.yaml` | YAML | daily |
-| `adb_tenders`, `ungm`, `gebiz_sg`, `philgeps`, `example_json` | Backlog templates (disabled) | — | — |
+| `example_json` | Template for any JSON API (disabled) | — | — |
+
+Items from non-ASEAN-specific sources are kept only if they mention an ASEAN
+country or region (`require_asean_match` in `config/taxonomy.yaml`).
+
+**Check by hand** — these block automated access or need an interactive search,
+so they are not fetched: [ADB tenders](https://www.adb.org/projects/tenders),
+[U.S. Mission to ASEAN](https://asean.usmission.gov/),
+[Asia Foundation procurement](https://asiafoundation.org/procurement/),
+[UNGM](https://www.ungm.org/Public/Notice), [GeBIZ](https://www.gebiz.gov.sg),
+[PhilGEPS](https://notices.philgeps.gov.ph).
 
 ---
 

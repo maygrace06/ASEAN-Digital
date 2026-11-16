@@ -59,7 +59,11 @@ def write_all(db: dict[str, Opportunity]) -> None:
         if src.exists():
             shutil.copyfile(src, dl / name)
     payload = {"generated_at": now_iso(), "opportunities": rows, "sources": sources}
-    (ROOT / "docs" / "data.json").write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
+    blob = json.dumps(payload, ensure_ascii=False)
+    (ROOT / "docs" / "data.json").write_text(blob, encoding="utf-8")
+    # data.js lets the dashboard work when opened straight from disk (file://),
+    # where browsers block fetch("data.json").
+    (ROOT / "docs" / "data.js").write_text(f"window.TRACKER_DATA={blob};\n", encoding="utf-8")
 
 
 def _write_xlsx(rows):

@@ -5,6 +5,7 @@
 
 settings:
   default_min_score: 30       # items below this relevance are dropped
+  require_asean_match: true   # drop items that mention no ASEAN country/region (manual list exempt)
   closing_soon_days: 21       # "closing soon" window
   keep_closed_days: 400       # keep closed items this long (for yearly reports)
   timezone: Asia/Bangkok

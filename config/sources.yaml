@@ -30,8 +30,9 @@ sources:
     enabled: true
     schedule: daily
     kind: grant
-    keywords: ["ASEAN", "Southeast Asia", "Indo-Pacific digital", "Indonesia", "Vietnam",
-               "Philippines", "Thailand", "Malaysia", "Cambodia", "Laos", "Timor-Leste"]
+    # Grants.gov ORs the words of a multi-word keyword — wrap phrases in quotes.
+    keywords: ["ASEAN", '"Southeast Asia"', "Indo-Pacific", "Mekong", "Indonesia", "Vietnam",
+               "Philippines", "Thailand", "Malaysia", "Cambodia", "Laos", "Myanmar", "Timor-Leste"]
     statuses: "forecasted|posted"
 
   - id: eu_portal
@@ -41,8 +42,8 @@ sources:
     schedule: daily
     kind: cfp
     funder: European Commission
-    keywords: ["ASEAN", "Southeast Asia", "Indonesia", "Vietnam", "Philippines", "Thailand",
-               "Malaysia", "Cambodia", "Laos"]
+    keywords: ["ASEAN", "Southeast Asia", "Asia", "Indo-Pacific", "Indonesia", "Vietnam", "Viet Nam",
+               "Philippines", "Thailand", "Malaysia", "Cambodia", "Laos", "Myanmar", "Timor-Leste"]
 
   - id: worldbank
     name: World Bank procurement notices
@@ -56,15 +57,44 @@ sources:
 
   # ---------- RSS feeds -----------------------------------------------------
   - id: fundsforngos_asean
-    name: fundsforNGOs – ASEAN search
+    name: fundsforNGOs (latest grants, filtered to ASEAN)
     type: rss
     enabled: true
     schedule: daily
     kind: grant
     urls:
-      - https://www2.fundsforngos.org/?s=ASEAN&feed=rss2
-      - https://www2.fundsforngos.org/?s=Southeast+Asia&feed=rss2
+      - https://www2.fundsforngos.org/feed/
       - https://fundsforcompanies.fundsforngos.org/?s=ASEAN&feed=rss2
+
+  - id: asia_foundation
+    name: The Asia Foundation – announcements
+    type: rss
+    enabled: true
+    schedule: weekly
+    kind: grant
+    funder: The Asia Foundation
+    urls: [https://asiafoundation.org/feed/]
+    include: "applications?|fellow|grant|call for|request for (proposals|applications|quotation)|RFP|RFQ|tender|funding|fund\\b"
+
+  - id: opportunity_desk
+    name: Opportunity Desk (global, filtered to ASEAN)
+    type: rss
+    enabled: true
+    schedule: daily
+    kind: grant
+    urls: [https://www.opportunitydesk.org/feed/]
+
+  - id: undp_procurement
+    name: UNDP procurement notices – Asia-Pacific
+    type: html
+    enabled: true
+    schedule: daily
+    kind: tender
+    funder: UNDP
+    url: https://procurement-notices.undp.org/
+    item_selector: "a.vacanciesTableLink.region_RAS"   # RAS = Asia-Pacific rows
+    title_selector: "div.vacanciesTable__cell:nth-of-type(1) span"
+    deadline_selector: "div.vacanciesTable__cell:nth-of-type(5) span"
 
   - id: astnet
     name: ASEAN STI Network (ASTNET)
@@ -76,17 +106,6 @@ sources:
     region_hint: ASEAN
     urls: [https://astnet.asean.org/feed/]
     include: "call|fund|grant|proposal|award|fellowship"
-
-  - id: us_mission_asean
-    name: U.S. Mission to ASEAN – NOFOs
-    type: rss
-    enabled: true
-    schedule: weekly
-    kind: grant
-    funder: U.S. Mission to ASEAN
-    region_hint: ASEAN
-    urls: [https://asean.usmission.gov/feed/]
-    include: "NOFO|funding opportunity|grant|call for"
 
   - id: google_news_leads
     name: Google News – funding leads
@@ -124,48 +143,16 @@ sources:
     schedule: daily
     path: data/manual.yaml
 
-  # ---------- Backlog: sources to configure later (disabled) ---------------
-  # Fill in url + selectors (html) or feed URL (rss), then enable.
-  - id: adb_tenders
-    name: Asian Development Bank – tenders
-    type: html
-    enabled: false
-    schedule: daily
-    kind: tender
-    funder: ADB
-    url: https://www.adb.org/projects/tenders
-    item_selector: ".item"         # TODO: inspect page and update
-    link_selector: "a"
-
-  - id: ungm
-    name: UN Global Marketplace
-    type: html
-    enabled: false
-    schedule: daily
-    kind: tender
-    url: https://www.ungm.org/Public/Notice
-    item_selector: ".tableRow"     # TODO
-    link_selector: "a"
-
-  - id: gebiz_sg
-    name: Singapore GeBIZ
-    type: html
-    enabled: false
-    schedule: daily
-    kind: tender
-    url: https://www.gebiz.gov.sg
-    item_selector: "TODO"
-    link_selector: "a"
-
-  - id: philgeps
-    name: Philippines PhilGEPS
-    type: html
-    enabled: false
-    schedule: daily
-    kind: tender
-    url: https://www.philgeps.gov.ph
-    item_selector: "TODO"
-    link_selector: "a"
+  # ---------- Not fetchable automatically (checked 2026-11-16) -----------
+  # These block automated access (HTTP 403) or need an interactive search /
+  # login, so they were removed. Check them by hand:
+  #   ADB tenders .............. https://www.adb.org/projects/tenders
+  #   U.S. Mission to ASEAN ..... https://asean.usmission.gov/
+  #   fundsforNGOs search ....... https://www2.fundsforngos.org/?s=ASEAN
+  #   Asia Foundation procurement https://asiafoundation.org/procurement/
+  #   UN Global Marketplace ..... https://www.ungm.org/Public/Notice
+  #   Singapore GeBIZ ........... https://www.gebiz.gov.sg
+  #   Philippines PhilGEPS ...... https://notices.philgeps.gov.ph
 
   # Example generic JSON API (copy & adapt for any JSON endpoint)
   - id: example_json

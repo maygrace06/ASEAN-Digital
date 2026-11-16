@@ -91,7 +91,7 @@ DEADLINE_RX = re.compile(
     rf"applications? (?:due|close)|until|by)\s*[:\-–]?\s*(?:is|on)?\s*{_DATE_RX}",
     re.I,
 )
-OPEN_RX = re.compile(rf"(?:opens?|opening date|start date|launch(?:ed)?|published)\s*[:\-–]?\s*(?:on)?\s*{_DATE_RX}", re.I)
+OPEN_RX = re.compile(rf"(?:opens?|opening date|start date|launch(?:ed)?|published|posted)\s*[:\-–]?\s*(?:on)?\s*{_DATE_RX}", re.I)
 
 
 def find_deadline(text: str) -> Optional[str]:

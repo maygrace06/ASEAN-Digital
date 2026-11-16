@@ -52,7 +52,8 @@ class EuPortal(Source):
 
     def fetch(self):
         query = {"bool": {"must": [
-            {"terms": {"type": self.cfg.get("types", ["1", "2", "8"])}},
+            # 0 = tenders / EU external-action notices, 1 = calls, 2 = EuropeAid, 8 = cascade calls
+            {"terms": {"type": self.cfg.get("types", ["0", "1", "2", "8"])}},
             {"terms": {"status": ["31094501", "31094502"]}},
         ]}}
         out = []
@@ -73,9 +74,11 @@ class EuPortal(Source):
                 ident = first("identifier") or first("callIdentifier") or ""
                 title = first("title") or r.get("summary") or r.get("content") or ""
                 status_code = str(first("status") or "")
+                is_tender = str(first("type") or "") == "0"
                 out.append(self.make(
                     title=clean_text(f"{title}", 300),
-                    url=self.TOPIC.format(ident.lower()) if ident else (r.get("url") or ""),
+                    kind="tender" if is_tender else self.kind,
+                    url=r.get("url") or (self.TOPIC.format(ident.lower()) if ident else ""),
                     reference=ident,
                     summary=clean_text(first("descriptionByte") or first("callTitle") or r.get("summary") or ""),
                     open_date=to_iso(first("startDate")),

@@ -56,10 +56,13 @@ def cmd_run(args) -> int:
             log.error("✗ %-22s %s", sid, st["error"])
             continue
         min_score = int(cfg.get("min_score", default_min))
+        need_asean = bool(setting("require_asean_match", True))
         kept = []
         for o in items:
             classify(o, cfg.get("region_hint"))
-            if cfg["type"] == "manual" or o.score >= min_score:
+            if cfg["type"] == "manual":
+                kept.append(o)
+            elif o.score >= min_score and (o.countries or not need_asean):
                 kept.append(o)
         added = store.merge(db, kept)
         total_new += len(added)

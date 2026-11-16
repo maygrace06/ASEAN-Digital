@@ -1,8 +1,8 @@
 {
  "sources": {
   "manual": {
-   "last_run": "2026-11-16T14:33:36+07:00",
-   "last_ok": "2026-11-16T14:33:36+07:00",
+   "last_run": "2026-11-16T15:07:09+07:00",
+   "last_ok": "2026-11-16T15:07:09+07:00",
    "error": "",
    "fetched": 3,
    "kept": 3,
@@ -11,80 +11,103 @@
    "warnings": []
   },
   "grants_gov": {
-   "last_run": "2026-11-16T14:32:57+07:00",
-   "last_ok": "2026-11-16T14:33:02+07:00",
+   "last_run": "2026-11-16T15:06:19+07:00",
+   "last_ok": "2026-11-16T15:06:25+07:00",
    "error": "",
-   "fetched": 149,
-   "kept": 149,
-   "new": 0,
-   "seconds": 5.5,
+   "fetched": 35,
+   "kept": 35,
+   "new": 19,
+   "seconds": 5.4,
    "warnings": []
   },
   "eu_portal": {
-   "last_run": "2026-11-16T14:33:02+07:00",
-   "last_ok": "2026-11-16T14:33:12+07:00",
+   "last_run": "2026-11-16T15:06:25+07:00",
+   "last_ok": "2026-11-16T15:06:42+07:00",
    "error": "",
-   "fetched": 1,
-   "kept": 0,
-   "new": 0,
-   "seconds": 9.9,
+   "fetched": 26,
+   "kept": 9,
+   "new": 7,
+   "seconds": 17.0,
    "warnings": []
   },
   "worldbank": {
-   "last_run": "2026-11-16T14:33:12+07:00",
-   "last_ok": "2026-11-16T14:33:31+07:00",
+   "last_run": "2026-11-16T15:06:42+07:00",
+   "last_ok": "2026-11-16T15:06:56+07:00",
    "error": "",
    "fetched": 87,
    "kept": 87,
    "new": 7,
-   "seconds": 18.5,
+   "seconds": 13.8,
    "warnings": []
   },
   "fundsforngos_asean": {
-   "last_run": "2026-11-16T14:33:31+07:00",
-   "last_ok": "2026-11-16T14:33:31+07:00",
+   "last_run": "2026-11-16T15:06:56+07:00",
+   "last_ok": "2026-11-16T15:06:56+07:00",
    "error": "",
-   "fetched": 10,
-   "kept": 9,
+   "fetched": 35,
+   "kept": 10,
    "new": 0,
    "seconds": 0.6,
-   "warnings": [
-    "https://www2.fundsforngos.org/?s=ASEAN&feed=rss2: HTTPError: 403 Client Error: Forbidden for url: https://www2.fundsforngos.org/?s=ASEAN&feed=rss2",
-    "https://www2.fundsforngos.org/?s=Southeast+Asia&feed=rss2: HTTPError: 403 Client Error: Forbidden for url: https://www2.fundsforngos.org/?s=Southeast+Asia&feed=rss2"
-   ]
+   "warnings": []
   },
   "astnet": {
-   "last_run": "2026-11-16T14:33:31+07:00",
-   "last_ok": "2026-11-16T14:33:32+07:00",
+   "last_run": "2026-11-16T15:07:07+07:00",
+   "last_ok": "2026-11-16T15:07:08+07:00",
    "error": "",
    "fetched": 3,
    "kept": 3,
    "new": 0,
+   "seconds": 0.6,
+   "warnings": []
+  },
+  "google_news_leads": {
+   "last_run": "2026-11-16T15:07:08+07:00",
+   "last_ok": "2026-11-16T15:07:08+07:00",
+   "error": "",
+   "fetched": 66,
+   "kept": 34,
+   "new": 0,
    "seconds": 0.5,
    "warnings": []
   },
-  "us_mission_asean": {
-   "last_run": "2026-11-16T14:33:32+07:00",
-   "error": "RuntimeError: all requests failed — https://asean.usmission.gov/feed/: HTTPError: 403 Client Error: Forbidden for url: https://asean.usmission.gov/feed/"
-  },
-  "google_news_leads": {
-   "last_run": "2026-11-16T14:33:34+07:00",
-   "last_ok": "2026-11-16T14:33:36+07:00",
-   "error": "",
-   "fetched": 68,
-   "kept": 37,
-   "new": 1,
-   "seconds": 1.6,
-   "warnings": []
-  },
   "asean_foundation": {
-   "last_run": "2026-11-16T14:33:36+07:00",
-   "last_ok": "2026-11-16T14:33:36+07:00",
+   "last_run": "2026-11-16T15:07:08+07:00",
+   "last_ok": "2026-11-16T15:07:09+07:00",
    "error": "",
    "fetched": 8,
    "kept": 8,
    "new": 0,
-   "seconds": 0.4,
+   "seconds": 0.3,
+   "warnings": []
+  },
+  "asia_foundation": {
+   "last_run": "2026-11-16T15:06:56+07:00",
+   "last_ok": "2026-11-16T15:06:57+07:00",
+   "error": "",
+   "fetched": 4,
+   "kept": 1,
+   "new": 0,
+   "seconds": 0.3,
+   "warnings": []
+  },
+  "opportunity_desk": {
+   "last_run": "2026-11-16T15:06:57+07:00",
+   "last_ok": "2026-11-16T15:07:03+07:00",
+   "error": "",
+   "fetched": 10,
+   "kept": 0,
+   "new": 0,
+   "seconds": 6.3,
+   "warnings": []
+  },
+  "undp_procurement": {
+   "last_run": "2026-11-16T15:07:03+07:00",
+   "last_ok": "2026-11-16T15:07:07+07:00",
+   "error": "",
+   "fetched": 114,
+   "kept": 42,
+   "new": 0,
+   "seconds": 4.5,
    "warnings": []
   }
  }
