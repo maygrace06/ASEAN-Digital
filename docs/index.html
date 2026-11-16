@@ -167,7 +167,7 @@ function renderList(){
   $("#rows").innerHTML=rows.map(o=>`<tr class="row" data-id="${o.id}"><td>${pill(o.status)}</td><td class="small">${dl(o)}</td>
     <td><div class="title">${esc(o.title)}</div><div class="small mute">${esc(o.funder||o.source)}${o.funding?" · "+esc(o.funding):""}</div></td>
     <td class="small">${esc(o.kind)}</td><td class="small">${o.countries.map(esc).join(", ")||"—"}</td>
-    <td>${o.themes.slice(0,3).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</td><td>${o.score}</td>
+    <td>${o.themes.slice(0,3).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</td><td title="${esc(o.score_why||"")}">${o.score}</td>
     <td class="small">${esc(o.pipeline_stage)}</td></tr>`).join("")||`<tr><td colspan=8 class="mute">No opportunities match these filters.</td></tr>`;
   $("#count").textContent=`${rows.length} of ${DATA.opportunities.length} opportunities`;
   document.querySelectorAll("tr.row").forEach(r=>r.onclick=()=>openD(r.dataset.id));
@@ -209,6 +209,7 @@ function openD(id){
   const f=(k,v)=>v?`<dt>${k}</dt><dd>${v}</dd>`:"";
   const yaml=`${o.id}:\n  stage: watching\n  priority: medium\n  owner: \n  next_action: ""\n  due: \n  notes: ""`;
   $("#dBody").innerHTML=`${pill(o.status)} <span class="small mute">relevance ${o.score}/100</span>
+    ${o.score_why?`<div class="small mute" style="margin-top:4px">Why: ${esc(o.score_why)}</div>`:""}
     <h2>${esc(o.title)}</h2>
     <p><a href="${esc(o.url)}" target="_blank" rel="noopener">Open official page ↗</a> &nbsp;
     <button class="lnk" onclick="navigator.clipboard.writeText('${o.id}')">Copy ID</button>

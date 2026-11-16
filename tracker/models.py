@@ -28,6 +28,7 @@ class Opportunity:
     id: str = ""
     status: str = "unknown"           # forthcoming | open | closing_soon | closed | unknown
     score: int = 0
+    score_why: str = ""               # human-readable breakdown of the score
     first_seen: str = ""
     last_seen: str = ""
     raw_status: str = ""              # status text as given by the source

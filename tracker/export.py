@@ -10,7 +10,7 @@ from .store import load_pipeline, load_state, now_iso
 from .utils import ROOT, load_yaml
 
 COLUMNS = ["id", "status", "deadline", "open_date", "title", "kind", "funder", "countries", "themes",
-           "funding", "eligibility", "requirements", "score", "source", "url", "reference",
+           "funding", "eligibility", "requirements", "score", "score_why", "source", "url", "reference",
            "recurring", "notes", "first_seen", "last_seen",
            "pipeline_stage", "pipeline_priority", "pipeline_owner", "pipeline_next_action", "pipeline_due"]
 

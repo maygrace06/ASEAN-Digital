@@ -26,8 +26,19 @@ def taxonomy() -> dict:
         "region": [_term_rx(a) for a in t.get("region_terms", [])],
         "themes": {th: [_term_rx(k) for k in kws] for th, kws in t.get("themes", {}).items()},
         "kinds": {k: [_term_rx(x) for x in kws] for k, kws in t.get("opportunity_terms", {}).items()},
+        "focus": {g: set(ths) for g, ths in (t.get("focus") or {}).items()},
+        "advisory": [_term_rx(x) for x in t.get("advisory_terms", [])],
+        "off_scope": [_term_rx(x) for x in t.get("off_scope_terms", [])],
+        "weak": {w.lower() for w in t.get("weak_terms", [])},
+        "theme_terms": {th: list(kws) for th, kws in t.get("themes", {}).items()},
+        "advisory_terms": list(t.get("advisory_terms", [])),
+        "off_scope_terms": list(t.get("off_scope_terms", [])),
     }
     return compiled
+
+
+def _matched(terms, patterns, text) -> list[str]:
+    return [t for t, p in zip(terms, patterns) if p.search(text)]
 
 
 def setting(name: str, default=None):
@@ -67,21 +78,73 @@ def classify(opp: Opportunity, region_hint: str | None = None) -> Opportunity:
     if not opp.open_date:
         opp.open_date = find_open_date(text)
 
-    # Relevance score
-    score = 0
-    if opp.countries:
-        score += w.get("country_or_region", 35)
-    if opp.themes:
-        score += w.get("theme_first", 30)
-        score += min(w.get("theme_extra", 5) * (len(opp.themes) - 1), w.get("theme_extra_cap", 15))
-    if any(_hits(p, text) for p in tx["kinds"].values()):
-        score += w.get("opportunity_term", 15)
-    if opp.deadline:
-        score += w.get("has_deadline", 5)
-    opp.score = min(score, 100)
-
+    opp.score, opp.score_why = score(opp, text)
     opp.status = compute_status(opp)
     return opp
+
+
+def score(opp: Opportunity, text: str) -> tuple[int, str]:
+    """Relevance 0-100 for: ASEAN · (1) digital economy · (2) workforce planning ·
+    consulting work or funding calls. Returns (score, explanation)."""
+    tx = taxonomy()
+    w = tx["weights"]
+    pts, why = 0, []
+
+    def add(n, label):
+        nonlocal pts
+        pts += n
+        why.append(f"{label} {'+' if n >= 0 else '−'}{abs(n)}")
+
+    if opp.countries:
+        add(w.get("country_or_region", 25), f"ASEAN ({', '.join(opp.countries[:3])})")
+
+    # Focus themes: only strong (non-weak) terms earn focus points
+    strong = {}
+    for th in opp.themes:
+        terms = _matched(tx["theme_terms"][th], tx["themes"][th], text)
+        terms = [t for t in terms if t.lower() not in tx["weak"]]
+        if terms:
+            strong[th] = terms
+    groups = tx["focus"]
+    prim = {th: t for th, t in strong.items() if th in groups.get("primary", set())}
+    sec = {th: t for th, t in strong.items() if th in groups.get("secondary", set())}
+    if prim:
+        add(w.get("focus_primary", 35), "Digital economy: " + ", ".join(sorted({x for v in prim.values() for x in v})[:4]))
+    elif sec:
+        add(w.get("focus_secondary", 30), "Workforce: " + ", ".join(sorted({x for v in sec.values() for x in v})[:4]))
+    elif opp.themes:
+        add(w.get("focus_other", 10), "Other theme: " + ", ".join(opp.themes[:2]))
+    if prim and sec:  # both focus areas: small bonus
+        add(5, "Workforce too: " + ", ".join(sorted({x for v in sec.values() for x in v})[:3]))
+    focus_terms = {x for v in {**prim, **sec}.values() for x in v}
+    title_rx = [_term_rx(t) for t in focus_terms]
+    if any(p.search(opp.title) for p in title_rx):
+        add(w.get("focus_in_title", 10), "focus topic in title")
+
+    # Type of work: consulting/advisory or formal call beats generic funding words
+    adv = _matched(tx["advisory_terms"], tx["advisory"], text)
+    fund_kinds = ("grant", "fund", "fellowship", "accelerator")
+    funding = [k for k in fund_kinds if _hits(tx["kinds"].get(k, []), text)]
+    if opp.kind == "lead":
+        # News articles: "funding round", "invests" are not calls. Only a real
+        # call / grant / RFP mentioned in the article counts.
+        funding = [k for k in ("grant",) if _hits(tx["kinds"].get(k, []), text)]
+        adv = [] if not _hits(tx["kinds"].get("cfp", []), text) else adv
+    if adv or _hits(tx["kinds"].get("cfp", []), text):
+        add(w.get("advisory_work", 20), "Consulting/call: " + ", ".join(adv[:3] or ["call"]))
+    elif funding:
+        add(w.get("funding_call", 15), "Funding: " + ", ".join(funding))
+    elif opp.kind == "lead":
+        add(-w.get("news_no_call_penalty", 20), "News, no call/grant mentioned")
+
+    if opp.deadline:
+        add(w.get("has_deadline", 5), "has deadline")
+
+    off = _matched(tx["off_scope_terms"], tx["off_scope"], opp.title)
+    if off:
+        add(-w.get("off_scope_penalty", 40), "Out of scope: " + ", ".join(off[:3]))
+
+    return max(0, min(pts, 100)), " · ".join(why)
 
 
 def compute_status(opp: Opportunity, ref: date | None = None) -> str:

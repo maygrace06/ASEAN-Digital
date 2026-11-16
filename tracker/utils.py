@@ -4,6 +4,7 @@ from __future__ import annotations
 import html
 import logging
 import re
+import warnings
 from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any, Optional
@@ -72,7 +73,9 @@ def to_iso(value: Any) -> Optional[str]:
     if m:
         return m.group(1)
     try:
-        dt = dparser.parse(s, fuzzy=True, dayfirst=not re.match(r"^\d{1,2}/\d{1,2}/\d{4}", s))
+        with warnings.catch_warnings():  # "(5:00 PM UTC+7, Jakarta time)" -> harmless tz warnings
+            warnings.simplefilter("ignore")
+            dt = dparser.parse(s, fuzzy=True, dayfirst=not re.match(r"^\d{1,2}/\d{1,2}/\d{4}", s))
         if 2000 <= dt.year <= 2100:
             return dt.strftime("%Y-%m-%d")
     except (ValueError, OverflowError):

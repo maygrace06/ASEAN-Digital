@@ -43,6 +43,7 @@ GitHub Actions runs it every day (06:17 Bangkok). Each source has its own `sched
 | `fundsforngos_asean` | fundsforNGOs latest feed + fundsforCompanies ASEAN search | RSS | daily |
 | `asia_foundation` | The Asia Foundation announcements (fellowships, grants, RFPs) | RSS | weekly |
 | `opportunity_desk` | Opportunity Desk (global; only ASEAN items kept) | RSS | daily |
+| `dt_global` | DT Global procurements (EOIs, RFPs, RFTs; implementing partner for DFAT etc.) | HTML | daily |
 | `undp_procurement` | UNDP procurement notices, Asia-Pacific rows | HTML | daily |
 | `astnet` | ASEAN STI Network (ASTIF etc.) | RSS | weekly |
 | `google_news_leads` | Google News searches (leads to verify) | RSS | daily |
@@ -58,7 +59,10 @@ so they are not fetched: [ADB tenders](https://www.adb.org/projects/tenders),
 [U.S. Mission to ASEAN](https://asean.usmission.gov/),
 [Asia Foundation procurement](https://asiafoundation.org/procurement/),
 [UNGM](https://www.ungm.org/Public/Notice), [GeBIZ](https://www.gebiz.gov.sg),
-[PhilGEPS](https://notices.philgeps.gov.ph).
+[PhilGEPS](https://notices.philgeps.gov.ph),
+[AusConnect (DFAT)](https://ausconnect.dfat.gov.au/opportunities),
+[AusTender](https://www.tenders.gov.au/),
+[Tetra Tech International Development](https://intdev.tetratech.com.au/) (EOIs are posted as PDFs, no listing page).
 
 ---
 
@@ -207,7 +211,27 @@ class MySite(Source):
 
 ### Tune relevance
 `config/taxonomy.yaml` holds countries, themes and keywords, scoring weights and
-`default_min_score`. Raise a source's `min_score` if it is noisy; lower it if it misses things.
+`default_min_score` (35). Raise a source's `min_score` if it is noisy; lower it if it misses things.
+
+The score (0–100) is built for: **ASEAN · (1) digital economy · (2) workforce planning ·
+consulting work for firms and individual/group consultants, plus grants**.
+
+| Part | Points |
+|---|---|
+| ASEAN country / region (required) | +25 |
+| Digital economy theme (`focus.primary`) | +30 |
+| …or workforce planning theme (`focus.secondary`) | +25 (+5 if both) |
+| …or only other themes | +10 |
+| Focus topic in the **title** | +15 |
+| Consulting / advisory work or formal call (`advisory_terms`, RFP, EOI) | +20 |
+| …or grant / fund / fellowship | +15 |
+| Has a deadline | +5 |
+| Off-scope work in the title (`off_scope_terms`: construction, goods, vehicles…) | −40 |
+| News lead with no call / grant mentioned | −20 |
+
+Generic words in `weak_terms` (research, youth, innovation…) tag a theme but earn no focus points.
+Every item has a `score_why` explanation — hover the score on the dashboard, or open the item.
+Stored items are re-scored on every run, so taxonomy edits apply to old items too.
 
 ---
 

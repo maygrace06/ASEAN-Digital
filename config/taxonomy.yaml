@@ -1,10 +1,15 @@
 # =====================================================================
 #  TAXONOMY — how opportunities are tagged and scored.
-#  Edit keywords freely; matching is case-insensitive whole-word-ish regex.
+#  Edit keywords freely; matching is case-insensitive whole-word-ish regex
+#  (short ALL-CAPS terms like AI, ICT, RFP are matched case-sensitively).
+#
+#  Focus: ASEAN · (1) digital economy · (2) workforce planning ·
+#         consulting work for firms and individual/group consultants,
+#         plus grants and funding calls.
 # =====================================================================
 
 settings:
-  default_min_score: 30       # items below this relevance are dropped
+  default_min_score: 35       # items below this relevance are dropped
   require_asean_match: true   # drop items that mention no ASEAN country/region (manual list exempt)
   closing_soon_days: 21       # "closing soon" window
   keep_closed_days: 400       # keep closed items this long (for yearly reports)
@@ -28,51 +33,103 @@ region_terms: [ASEAN, "Southeast Asia", "South-East Asia", "Mekong", "Indo-Pacif
 themes:
   AI & Data:
     [AI, "artificial intelligence", "machine learning", "generative AI", "data governance",
-     "data sharing", "big data", "data science", "LLM", "responsible AI", "AI governance"]
+     "data sharing", "big data", "data science", "LLM", "responsible AI", "AI governance",
+     "data management", "data strategy"]
   Digital Economy & Trade:
     ["digital economy", "e-commerce", "digital trade", DEFA, "digital economy framework",
-     "cross-border data", "digital payments", fintech, "digital marketplace"]
+     "cross-border data", "digital payments", fintech, "digital marketplace",
+     "digital transformation", "digital ecosystem", "ICT ecosystem", "digital readiness", ICT,
+     "digitalisation", "digitalization", "digital adoption", "digital business"]
   Digital Integration & Policy:
     ["digital integration", "regional integration", interoperability, "digital policy",
-     "digital masterplan", "ADM 2025", "digital master plan", harmonisation, harmonization]
-  Future of Work & Skills:
-    ["future of work", "digital skills", skills, reskilling, upskilling, workforce, "talent development",
-     "digital literacy", employability, "TVET", "gig economy", "remote work", "hybrid work"]
-  Workspace & Workforce Planning:
-    ["workspace", "workplace", "workforce planning", "co-working", coworking, "office space",
-     "smart workplace", "human capital", "HR tech"]
+     "digital masterplan", "ADM 2025", "ADM 2030", "digital master plan", harmonisation, harmonization,
+     "ASEAN Connectivity", "MPAC", "digital connectivity"]
   Digital Infrastructure:
-    [broadband, connectivity, "data center", "data centre", cloud, 5G, "digital infrastructure",
-     "digital public infrastructure", DPI, telecom, satellite]
+    [broadband, connectivity, "data center", "data centre", "digital infrastructure",
+     "digital public infrastructure", DPI, telecom, telecommunications, 5G, "cloud computing"]
   Cybersecurity & Trust:
-    [cybersecurity, "cyber security", "online safety", scam, "digital trust", privacy, "digital identity"]
+    [cybersecurity, "cyber security", "online safety", "online scams", "digital trust", "data privacy",
+     "data protection", "digital identity", "business continuity"]
   Digital Government:
     ["e-government", "digital government", govtech, "public sector digital", "e-services",
-     "information system", "management information system"]
+     "information system", "management information system", "case management system",
+     "records management", "information management", "e-justice", "e-procurement"]
+  Future of Work & Skills:
+    ["future of work", "digital skills", reskilling, upskilling, "talent development",
+     "digital literacy", employability, TVET, "gig economy", "platform work", "remote work", "hybrid work",
+     "skills development", "skills gap", "skills mapping", "skills anticipation", "labour market",
+     "labor market", "LMIS", "jobs of the future"]
+  Workspace & Workforce Planning:
+    ["workforce planning", "workforce development", "workforce strategy", "workforce analytics",
+     "manpower planning", "human resource development", "HR strategy", "HR tech", "human capital",
+     "organisational capability", "organizational capability", "capability review",
+     "capacity and capability", "competency framework", "civil service reform", "public service reform",
+     "organisational development", "organizational development", "workspace", "workplace",
+     "co-working", coworking, "smart workplace"]
   Startups & Innovation:
     [startup, start-up, MSME, SME, accelerator, incubator, innovation, entrepreneurship,
      "venture", "technology transfer", "R&D", research]
   Development & Inclusion:
     ["digital inclusion", "digital divide", gender, women, youth, "rural", "inclusive",
-     "sustainable development", SDG]
+     "sustainable development", SDG, GEDSI]
   Climate & Green Digital:
     ["climate tech", "green digital", "energy transition", "smart city", "smart cities"]
 
-# Words that indicate an actual funding opportunity
+# Which themes are your focus. Points per group are in `weights`.
+focus:
+  primary:   [AI & Data, Digital Economy & Trade, Digital Integration & Policy, Digital Infrastructure,
+              Cybersecurity & Trust, Digital Government]          # 1. digital economy
+  secondary: [Future of Work & Skills, Workspace & Workforce Planning]  # 2. workforce planning
+
+# Words that indicate an actual funding opportunity / call
 opportunity_terms:
   grant:      [grant, grants, "funding opportunity", NOFO, "small grants", "seed fund", subsidy]
   cfp:        ["call for proposals", "call for applications", "call for papers", "call for concept notes",
-               "request for proposals", RFP, "expression of interest", EOI, "call for submissions"]
-  tender:     [tender, procurement, "invitation for bids", "request for quotation", RFQ, "bid", "consultancy services"]
-  fund:       [fund, "funding", investment, "venture capital", "challenge fund"]
+               "request for proposals", RFP, "expression of interest", "expressions of interest", EOI,
+               "call for submissions"]
+  tender:     [tender, procurement, "invitation for bids", "request for quotation", RFQ, "consultancy services",
+               "consulting services"]
+  fund:       [fund, "funding", "venture capital", "challenge fund"]
   fellowship: [fellowship, scholarship, award, prize, competition, hackathon, challenge]
   accelerator: [accelerator, incubator, bootcamp, cohort]
 
-# Scoring weights (max 100)
+# Type of work — advisory/consulting work you can bid on (firm or consultant)
+advisory_terms:
+  [assessment, "rapid assessment", diagnostic, "feasibility study", feasibility, strategy, roadmap, "road map",
+   "technical assistance", "terms of reference", ToR, consultancy, consultant, consultants, "consulting services",
+   "consulting firm", advisory, "capacity building", evaluation, readiness, "policy development",
+   "policy advice", "action plan", "master plan", masterplan, "situational analysis", "baseline study",
+   "scoping study", "market study", "gap analysis", "needs assessment", "flagship projects",
+   "request for proposals", RFP, "expression of interest", "expressions of interest", EOI]
+
+# Work you don't do — matched in the TITLE only, subtracts `off_scope_penalty`
+off_scope_terms:
+  ["site engineer", "site engineers", "civil works", construction, "works contract", rehabilitation, "rehab",
+   concreting, "supply of", "supply and delivery", "supply and installation", goods, equipment, vehicle,
+   vehicles, furniture, "security services", "security guard", cleaning, catering, printing, laboratory,
+   drilling, "road works", "medical supplies", pharmaceutical, fuel, "office supplies", "spare parts",
+   "motorbike", "motorcycle", "air conditioning", "generator", "solar panels", "seeds", "fertilizer",
+   "livestock", "driver", "translation services", "event management", "venue", "hotel",
+   # hardware / licences / goods purchases
+   UPS, battery, batteries, license, licence, licenses, licences, subscription, hardware, laptop, laptops,
+   workstation, server, servers, printer, printers, storage,
+   # Indonesian / Vietnamese / Filipino procurement words for goods & works
+   pengadaan, penggantian, baterai, lisensi, pembangunan, rehabilitasi, konstruksi, perangkat, "mua sắm",
+   "xây dựng", "thi công", "thiết bị"]
+
+# Very common words: they still tag a theme, but don't earn focus points
+weak_terms: [research, innovation, youth, women, gender, rural, inclusive, SDG, "sustainable development",
+             workplace, workspace, connectivity]
+
+# Scoring weights (score is clamped to 0–100)
 weights:
-  country_or_region: 35
-  theme_first: 30
-  theme_extra: 5          # per extra theme, capped
-  theme_extra_cap: 15
-  opportunity_term: 15
+  country_or_region: 25
+  focus_primary: 30       # digital economy
+  focus_secondary: 25     # workforce planning
+  focus_other: 10         # only other / weak themes
+  focus_in_title: 15      # a focus term appears in the title (the title says what the work is)
+  advisory_work: 20       # consulting / advisory assignment, or formal call (RFP, EOI)
+  funding_call: 15        # grant, fund, fellowship, prize
   has_deadline: 5
+  off_scope_penalty: 40   # off-scope work in the title
+  news_no_call_penalty: 20  # Google News item that mentions no call / grant / RFP

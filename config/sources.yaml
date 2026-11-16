@@ -84,6 +84,19 @@ sources:
     kind: grant
     urls: [https://www.opportunitydesk.org/feed/]
 
+  - id: dt_global
+    name: DT Global – procurements (EOIs, RFPs, RFTs)
+    type: html
+    enabled: true
+    schedule: daily
+    kind: tender
+    funder: DT Global (implementing partner)
+    url: https://dt-global.com/procurements/
+    item_selector: "li.pdf-downloads__item"
+    link_selector: "a.pdf-downloads__button"
+    title_selector: "h4.pdf-downloads__item-title"
+    deadline_selector: ".pdf-downloads__meta-item--date .pdf-downloads__meta-text"
+
   - id: undp_procurement
     name: UNDP procurement notices – Asia-Pacific
     type: html
@@ -153,6 +166,9 @@ sources:
   #   UN Global Marketplace ..... https://www.ungm.org/Public/Notice
   #   Singapore GeBIZ ........... https://www.gebiz.gov.sg
   #   Philippines PhilGEPS ...... https://notices.philgeps.gov.ph
+  #   AusConnect (DFAT) ......... https://ausconnect.dfat.gov.au/opportunities  (no response to automated requests)
+  #   AusTender ................. https://www.tenders.gov.au/                   (403)
+  #   Tetra Tech Intl Dev ....... https://intdev.tetratech.com.au/             (EOIs posted as PDFs, no listing)
 
   # Example generic JSON API (copy & adapt for any JSON endpoint)
   - id: example_json

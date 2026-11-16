@@ -55,6 +55,36 @@ def test_irrelevant_item_scores_low():
     assert o.score < 30
 
 
+def test_site_engineer_is_out_of_scope():
+    o = Opportunity(title="Individual Consultants for two Site Engineers", url="https://x.org/se", source="t",
+                    countries=["Cambodia"],
+                    summary="Request for Expression of Interest. Project: Nurturing Early Skills through "
+                            f"Technology. Terms of Reference. Youth. Deadline: {FUTURE}")
+    C.classify(o)
+    assert o.score < 35, o.score_why
+    assert "Out of scope" in o.score_why
+
+
+def test_ict_assessment_rfp_scores_high():
+    o = Opportunity(title="Request for Proposal: Rapid Assessment of ICT Eco-system for the Ministry of Justice",
+                    url="https://x.org/rfp", source="t",
+                    summary="Lao PDR. Court registry, case management systems review, ICT and digital capability "
+                            "assessment, digital transformation readiness, capacity and capability review. "
+                            f"Applications close on {FUTURE}.")
+    C.classify(o)
+    assert o.score >= 90, o.score_why
+    assert "Digital economy" in o.score_why and "Consulting/call" in o.score_why
+
+
+def test_workforce_planning_tor_scores_well():
+    o = Opportunity(title="Terms of Reference: Workforce Planning and Skills Anticipation Study",
+                    url="https://x.org/wf", source="t",
+                    summary="Consulting firm or individual consultants to support Viet Nam labour market analysis.")
+    C.classify(o)
+    assert o.score >= 75, o.score_why
+    assert "Workforce" in o.score_why
+
+
 def test_thai_does_not_match_ai():
     o = Opportunity(title="Thai rice farmers training", url="https://x.org/c", source="t")
     C.classify(o)
