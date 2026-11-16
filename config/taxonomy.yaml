@@ -1,0 +1,77 @@
+# =====================================================================
+#  TAXONOMY — how opportunities are tagged and scored.
+#  Edit keywords freely; matching is case-insensitive whole-word-ish regex.
+# =====================================================================
+
+settings:
+  default_min_score: 30       # items below this relevance are dropped
+  closing_soon_days: 21       # "closing soon" window
+  keep_closed_days: 400       # keep closed items this long (for yearly reports)
+  timezone: Asia/Bangkok
+
+countries:
+  Brunei:       [Brunei, "Brunei Darussalam"]
+  Cambodia:     [Cambodia, Cambodian, "Phnom Penh"]
+  Indonesia:    [Indonesia, Indonesian, Jakarta]
+  Laos:         [Laos, "Lao PDR", "Lao People's Democratic Republic", Lao, Vientiane]
+  Malaysia:     [Malaysia, Malaysian, "Kuala Lumpur"]
+  Myanmar:      [Myanmar, Burma]
+  Philippines:  [Philippines, Philippine, Filipino, Manila]
+  Singapore:    [Singapore]
+  Thailand:     [Thailand, Thai, Bangkok]
+  Timor-Leste:  [Timor-Leste, "East Timor", Dili]
+  Vietnam:      [Vietnam, "Viet Nam", Vietnamese, Hanoi, "Ho Chi Minh"]
+
+region_terms: [ASEAN, "Southeast Asia", "South-East Asia", "Mekong", "Indo-Pacific", "Asia-Pacific", "Asia Pacific"]
+
+themes:
+  AI & Data:
+    [AI, "artificial intelligence", "machine learning", "generative AI", "data governance",
+     "data sharing", "big data", "data science", "LLM", "responsible AI", "AI governance"]
+  Digital Economy & Trade:
+    ["digital economy", "e-commerce", "digital trade", DEFA, "digital economy framework",
+     "cross-border data", "digital payments", fintech, "digital marketplace"]
+  Digital Integration & Policy:
+    ["digital integration", "regional integration", interoperability, "digital policy",
+     "digital masterplan", "ADM 2025", "digital master plan", harmonisation, harmonization]
+  Future of Work & Skills:
+    ["future of work", "digital skills", skills, reskilling, upskilling, workforce, "talent development",
+     "digital literacy", employability, "TVET", "gig economy", "remote work", "hybrid work"]
+  Workspace & Workforce Planning:
+    ["workspace", "workplace", "workforce planning", "co-working", coworking, "office space",
+     "smart workplace", "human capital", "HR tech"]
+  Digital Infrastructure:
+    [broadband, connectivity, "data center", "data centre", cloud, 5G, "digital infrastructure",
+     "digital public infrastructure", DPI, telecom, satellite]
+  Cybersecurity & Trust:
+    [cybersecurity, "cyber security", "online safety", scam, "digital trust", privacy, "digital identity"]
+  Digital Government:
+    ["e-government", "digital government", govtech, "public sector digital", "e-services",
+     "information system", "management information system"]
+  Startups & Innovation:
+    [startup, start-up, MSME, SME, accelerator, incubator, innovation, entrepreneurship,
+     "venture", "technology transfer", "R&D", research]
+  Development & Inclusion:
+    ["digital inclusion", "digital divide", gender, women, youth, "rural", "inclusive",
+     "sustainable development", SDG]
+  Climate & Green Digital:
+    ["climate tech", "green digital", "energy transition", "smart city", "smart cities"]
+
+# Words that indicate an actual funding opportunity
+opportunity_terms:
+  grant:      [grant, grants, "funding opportunity", NOFO, "small grants", "seed fund", subsidy]
+  cfp:        ["call for proposals", "call for applications", "call for papers", "call for concept notes",
+               "request for proposals", RFP, "expression of interest", EOI, "call for submissions"]
+  tender:     [tender, procurement, "invitation for bids", "request for quotation", RFQ, "bid", "consultancy services"]
+  fund:       [fund, "funding", investment, "venture capital", "challenge fund"]
+  fellowship: [fellowship, scholarship, award, prize, competition, hackathon, challenge]
+  accelerator: [accelerator, incubator, bootcamp, cohort]
+
+# Scoring weights (max 100)
+weights:
+  country_or_region: 35
+  theme_first: 30
+  theme_extra: 5          # per extra theme, capped
+  theme_extra_cap: 15
+  opportunity_term: 15
+  has_deadline: 5

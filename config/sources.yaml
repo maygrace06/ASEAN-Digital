@@ -1,0 +1,187 @@
+# =====================================================================
+#  SOURCES — every public source the tracker reads.
+#
+#  To add a source: copy a block, give it a unique `id`, set `type`,
+#  and set `enabled: true`. No Python changes needed for rss / html /
+#  json_api types.
+#
+#  Common fields
+#    id          unique slug (used in data + dashboard)
+#    name        display name
+#    type        rss | html | json_api | grants_gov | eu_portal | worldbank | manual
+#    enabled     true / false
+#    schedule    daily | weekly | monthly   (how often it is fetched)
+#    kind        grant | cfp | tender | fund | lead     (default type of items)
+#    funder      default funder name for items
+#    region_hint ASEAN   -> treat every item as ASEAN-relevant (use for
+#                           ASEAN-only sites); otherwise country/region
+#                           must be detected in the text
+#    min_score   relevance threshold 0-100 (default in taxonomy.yaml)
+#    include     optional regex: keep items whose title/summary match
+#    exclude     optional regex: drop items whose title/summary match
+# =====================================================================
+
+sources:
+
+  # ---------- Official APIs ------------------------------------------------
+  - id: grants_gov
+    name: Grants.gov (US federal grants)
+    type: grants_gov
+    enabled: true
+    schedule: daily
+    kind: grant
+    keywords: ["ASEAN", "Southeast Asia", "Indo-Pacific digital", "Indonesia", "Vietnam",
+               "Philippines", "Thailand", "Malaysia", "Cambodia", "Laos", "Timor-Leste"]
+    statuses: "forecasted|posted"
+
+  - id: eu_portal
+    name: EU Funding & Tenders Portal
+    type: eu_portal
+    enabled: true
+    schedule: daily
+    kind: cfp
+    funder: European Commission
+    keywords: ["ASEAN", "Southeast Asia", "Indonesia", "Vietnam", "Philippines", "Thailand",
+               "Malaysia", "Cambodia", "Laos"]
+
+  - id: worldbank
+    name: World Bank procurement notices
+    type: worldbank
+    enabled: true
+    schedule: daily
+    kind: tender
+    funder: World Bank
+    keywords: ["digital", "ICT", "artificial intelligence", "e-government", "broadband",
+               "data center", "cybersecurity", "information system", "digital skills"]
+
+  # ---------- RSS feeds -----------------------------------------------------
+  - id: fundsforngos_asean
+    name: fundsforNGOs – ASEAN search
+    type: rss
+    enabled: true
+    schedule: daily
+    kind: grant
+    urls:
+      - https://www2.fundsforngos.org/?s=ASEAN&feed=rss2
+      - https://www2.fundsforngos.org/?s=Southeast+Asia&feed=rss2
+      - https://fundsforcompanies.fundsforngos.org/?s=ASEAN&feed=rss2
+
+  - id: astnet
+    name: ASEAN STI Network (ASTNET)
+    type: rss
+    enabled: true
+    schedule: weekly
+    kind: cfp
+    funder: ASEAN COSTI
+    region_hint: ASEAN
+    urls: [https://astnet.asean.org/feed/]
+    include: "call|fund|grant|proposal|award|fellowship"
+
+  - id: us_mission_asean
+    name: U.S. Mission to ASEAN – NOFOs
+    type: rss
+    enabled: true
+    schedule: weekly
+    kind: grant
+    funder: U.S. Mission to ASEAN
+    region_hint: ASEAN
+    urls: [https://asean.usmission.gov/feed/]
+    include: "NOFO|funding opportunity|grant|call for"
+
+  - id: google_news_leads
+    name: Google News – funding leads
+    type: rss
+    enabled: true
+    schedule: daily
+    kind: lead          # news items = leads to verify, not official calls
+    min_score: 45
+    urls:
+      - https://news.google.com/rss/search?q=%22call+for+proposals%22+ASEAN+digital&hl=en-SG&gl=SG&ceid=SG:en
+      - https://news.google.com/rss/search?q=ASEAN+AI+grant+applications+open&hl=en-SG&gl=SG&ceid=SG:en
+      - https://news.google.com/rss/search?q=tender+%22digital+transformation%22+Indonesia+OR+Vietnam+OR+Philippines&hl=en-SG&gl=SG&ceid=SG:en
+      - https://news.google.com/rss/search?q=%22future+of+work%22+ASEAN+fund+OR+grant&hl=en-SG&gl=SG&ceid=SG:en
+
+  # ---------- HTML pages (CSS selectors) ------------------------------------
+  - id: asean_foundation
+    name: ASEAN Foundation – Call for Applications
+    type: html
+    enabled: true
+    schedule: weekly
+    kind: cfp
+    funder: ASEAN Foundation
+    region_hint: ASEAN
+    url: https://aseanfoundation.org/call-for-applications/
+    item_selector: "h4"            # each call starts with an <h4><a>title</a></h4>
+    link_selector: "a"
+    context_parent_levels: 2       # read surrounding text for dates/status
+    skip_if_text: "Registration Closed"
+
+  # ---------- Your hand-curated list ---------------------------------------
+  - id: manual
+    name: Manually added opportunities
+    type: manual
+    enabled: true
+    schedule: daily
+    path: data/manual.yaml
+
+  # ---------- Backlog: sources to configure later (disabled) ---------------
+  # Fill in url + selectors (html) or feed URL (rss), then enable.
+  - id: adb_tenders
+    name: Asian Development Bank – tenders
+    type: html
+    enabled: false
+    schedule: daily
+    kind: tender
+    funder: ADB
+    url: https://www.adb.org/projects/tenders
+    item_selector: ".item"         # TODO: inspect page and update
+    link_selector: "a"
+
+  - id: ungm
+    name: UN Global Marketplace
+    type: html
+    enabled: false
+    schedule: daily
+    kind: tender
+    url: https://www.ungm.org/Public/Notice
+    item_selector: ".tableRow"     # TODO
+    link_selector: "a"
+
+  - id: gebiz_sg
+    name: Singapore GeBIZ
+    type: html
+    enabled: false
+    schedule: daily
+    kind: tender
+    url: https://www.gebiz.gov.sg
+    item_selector: "TODO"
+    link_selector: "a"
+
+  - id: philgeps
+    name: Philippines PhilGEPS
+    type: html
+    enabled: false
+    schedule: daily
+    kind: tender
+    url: https://www.philgeps.gov.ph
+    item_selector: "TODO"
+    link_selector: "a"
+
+  # Example generic JSON API (copy & adapt for any JSON endpoint)
+  - id: example_json
+    name: Example JSON API
+    type: json_api
+    enabled: false
+    schedule: weekly
+    kind: grant
+    url: https://example.org/api/opportunities
+    method: GET                   # or POST
+    params: {q: ASEAN}
+    items_path: data.items        # dotted path to the list in the response
+    fields:                       # map our field -> dotted path in each item
+      title: title
+      url: link
+      deadline: closing_date
+      open_date: opening_date
+      summary: description
+      funder: organisation

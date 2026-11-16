@@ -1,0 +1,91 @@
+{
+ "sources": {
+  "manual": {
+   "last_run": "2026-11-16T14:33:36+07:00",
+   "last_ok": "2026-11-16T14:33:36+07:00",
+   "error": "",
+   "fetched": 3,
+   "kept": 3,
+   "new": 0,
+   "seconds": 0.0,
+   "warnings": []
+  },
+  "grants_gov": {
+   "last_run": "2026-11-16T14:32:57+07:00",
+   "last_ok": "2026-11-16T14:33:02+07:00",
+   "error": "",
+   "fetched": 149,
+   "kept": 149,
+   "new": 0,
+   "seconds": 5.5,
+   "warnings": []
+  },
+  "eu_portal": {
+   "last_run": "2026-11-16T14:33:02+07:00",
+   "last_ok": "2026-11-16T14:33:12+07:00",
+   "error": "",
+   "fetched": 1,
+   "kept": 0,
+   "new": 0,
+   "seconds": 9.9,
+   "warnings": []
+  },
+  "worldbank": {
+   "last_run": "2026-11-16T14:33:12+07:00",
+   "last_ok": "2026-11-16T14:33:31+07:00",
+   "error": "",
+   "fetched": 87,
+   "kept": 87,
+   "new": 7,
+   "seconds": 18.5,
+   "warnings": []
+  },
+  "fundsforngos_asean": {
+   "last_run": "2026-11-16T14:33:31+07:00",
+   "last_ok": "2026-11-16T14:33:31+07:00",
+   "error": "",
+   "fetched": 10,
+   "kept": 9,
+   "new": 0,
+   "seconds": 0.6,
+   "warnings": [
+    "https://www2.fundsforngos.org/?s=ASEAN&feed=rss2: HTTPError: 403 Client Error: Forbidden for url: https://www2.fundsforngos.org/?s=ASEAN&feed=rss2",
+    "https://www2.fundsforngos.org/?s=Southeast+Asia&feed=rss2: HTTPError: 403 Client Error: Forbidden for url: https://www2.fundsforngos.org/?s=Southeast+Asia&feed=rss2"
+   ]
+  },
+  "astnet": {
+   "last_run": "2026-11-16T14:33:31+07:00",
+   "last_ok": "2026-11-16T14:33:32+07:00",
+   "error": "",
+   "fetched": 3,
+   "kept": 3,
+   "new": 0,
+   "seconds": 0.5,
+   "warnings": []
+  },
+  "us_mission_asean": {
+   "last_run": "2026-11-16T14:33:32+07:00",
+   "error": "RuntimeError: all requests failed — https://asean.usmission.gov/feed/: HTTPError: 403 Client Error: Forbidden for url: https://asean.usmission.gov/feed/"
+  },
+  "google_news_leads": {
+   "last_run": "2026-11-16T14:33:34+07:00",
+   "last_ok": "2026-11-16T14:33:36+07:00",
+   "error": "",
+   "fetched": 68,
+   "kept": 37,
+   "new": 1,
+   "seconds": 1.6,
+   "warnings": []
+  },
+  "asean_foundation": {
+   "last_run": "2026-11-16T14:33:36+07:00",
+   "last_ok": "2026-11-16T14:33:36+07:00",
+   "error": "",
+   "fetched": 8,
+   "kept": 8,
+   "new": 0,
+   "seconds": 0.4,
+   "warnings": []
+  }
+ }
+}

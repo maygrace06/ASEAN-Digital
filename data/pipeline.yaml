@@ -1,0 +1,16 @@
+# =====================================================================
+#  YOUR PIPELINE — track what you are pursuing.
+#  Key = opportunity id (copy it from the dashboard "ID" button).
+#
+#  stage: watching | shortlisted | preparing | submitted | awarded | rejected | withdrawn
+#  priority: high | medium | low
+# =====================================================================
+
+# example:
+# 3f9a1c2b7d4e:
+#   stage: preparing
+#   priority: high
+#   owner: May
+#   next_action: "Draft concept note, confirm partner in Vietnam"
+#   due: 2026-12-01
+#   notes: "Fits our AI workforce-planning product"

@@ -1,0 +1,56 @@
+# =====================================================================
+#  MANUAL OPPORTUNITIES — add anything you find by hand.
+#  Only `title` and `url` are required. Dates: YYYY-MM-DD.
+#  `recurring: annual` marks calls that typically repeat each year.
+# =====================================================================
+
+- title: "ASEAN Science, Technology and Innovation Fund (ASTIF) Call 2026: AI-Enabled Competitive and Resilient Region"
+  url: https://astnet.asean.org/astif/
+  funder: ASEAN COSTI (ASTIF)
+  kind: cfp
+  countries: [ASEAN-wide]
+  themes: [AI & Data, Startups & Innovation, Future of Work & Skills]
+  deadline: 2026-10-16
+  funding: "USD 1,200,000 total pool"
+  recurring: annual
+  eligibility: >
+    Legally registered entities in an ASEAN Member State (no individuals). Teams must include
+    members from at least 2 AMS; CLMV-TL co-leads encouraged. Submitted via the National COSTI
+    Focal Point of the lead AMS. Max duration 24 months.
+  requirements: >
+    Collaborative R&D, technology demos/proofs of concept, shared AI infrastructure & data systems.
+    Priority areas: AI for health/bioeconomy/food; space/earth/ocean/climate; materials & energy;
+    MSME productivity & workforce development.
+
+- title: "ASEAN IVO Call for Proposals (NICT Japan) – ICT projects"
+  url: https://www.nict.go.jp/en/asean_ivo/2026_Call_for_Proposals.html
+  funder: NICT Japan / ASEAN IVO
+  kind: cfp
+  countries: [ASEAN-wide]
+  themes: [AI & Data, Digital Government, Cybersecurity & Trust, Development & Inclusion]
+  open_date: 2025-11-01
+  deadline: 2026-01-07
+  funding: "Up to USD 40,000 per project per year (~5 projects)"
+  recurring: annual
+  eligibility: >
+    Applicant institution must be an ASEAN IVO member; at least 2 institutions from 2 ASEAN
+    countries. Max 2 projects per researcher. No personnel costs.
+  requirements: >
+    Themes: ICT for food, environment & disaster prevention, secure & smart community,
+    health & welfare, inclusive digital services & governance, ICT technologies/applications.
+  notes: "Recurring annually — next call usually opens ~November."
+
+- title: "Y-AI: Leveraging the U.S. Tech Stack for a Free and Open Indo-Pacific (OFOP0002648)"
+  url: https://asean.usmission.gov/nofo-y-ai-leveraging-the-u-s-tech-stack-for-a-free-and-open-indo-pacific/
+  funder: U.S. Mission to ASEAN
+  kind: grant
+  countries: [ASEAN-wide]
+  themes: [AI & Data, Future of Work & Skills, Digital Integration & Policy]
+  open_date: 2026-06-04
+  deadline: 2026-07-05
+  funding: "Up to USD 250,000 (1 award)"
+  eligibility: >
+    Non-profits, think tanks, NGOs, educational institutions, individuals, public international
+    orgs. UEI + SAM.gov registration required for organisations. One proposal per organisation.
+  requirements: >
+    Proposal narrative, SF-424 forms, budget + justification, CVs, partner letters, NICRA if applicable.
