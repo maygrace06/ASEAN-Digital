@@ -26,6 +26,8 @@
   th{font-size:12px;color:var(--mute);font-weight:600;cursor:pointer;user-select:none;background:var(--card);position:sticky;top:0}
   tr.row{cursor:pointer} tr.row:hover td{background:var(--brand2)}
   .pill{display:inline-block;padding:1px 8px;border-radius:99px;font-size:11px;font-weight:600;color:#fff;white-space:nowrap}
+  .new{display:inline-block;padding:0 6px;margin-right:6px;border-radius:4px;font-size:10px;font-weight:700;letter-spacing:.04em;
+       background:#d97706;color:#fff;vertical-align:1px}
   .s-open{background:var(--open)}.s-closing_soon{background:var(--soon)}.s-forthcoming{background:var(--fut)}.s-closed{background:var(--closed)}.s-unknown{background:var(--unk)}
   .tag{display:inline-block;padding:0 6px;margin:1px 2px 1px 0;border-radius:4px;background:var(--brand2);font-size:11px}
   .title{font-weight:600} .small{font-size:12px}
@@ -63,6 +65,8 @@
   </div>
   <div class="filters" id="filters">
     <input id="q" placeholder="Search title, funder, eligibility…">
+    <select id="fNew"><option value="">New + existing</option><option value="latest">New in latest fetch</option>
+      <option value="7">New in last 7 days</option><option value="30">New in last 30 days</option></select>
     <select id="fStatus"><option value="live">Live (open + soon + forthcoming + unknown)</option><option value="">All statuses</option>
       <option value="open">Open</option><option value="closing_soon">Closing soon</option><option value="forthcoming">Forthcoming</option>
       <option value="unknown">Unknown deadline</option><option value="closed">Closed</option></select>
@@ -115,8 +119,13 @@ const days=d=>d?Math.round((new Date(d)-today)/864e5):null;
 function opts(sel,vals){vals.forEach(v=>sel.insertAdjacentHTML("beforeend",`<option>${esc(v)}</option>`))}
 function uniq(f){return [...new Set(DATA.opportunities.flatMap(f))].filter(Boolean).sort()}
 
+// LATEST = the day of the most recent fetch that found something new.
+let LATEST="";
+const isNew=o=>!!LATEST&&o.first_seen===LATEST;
 function init(){
   $("#gen").textContent="Updated "+new Date(DATA.generated_at).toLocaleString();
+  LATEST=DATA.opportunities.reduce((m,o)=>o.first_seen>m?o.first_seen:m,"");
+  if(LATEST)$("#fNew").options[1].textContent=`New in latest fetch (${LATEST})`;
   opts($("#fCountry"),uniq(o=>o.countries));opts($("#fTheme"),uniq(o=>o.themes));
   opts($("#fKind"),uniq(o=>[o.kind]));opts($("#fSource"),uniq(o=>[o.source]));
   document.querySelectorAll("#filters input,#filters select,#gran").forEach(el=>el.addEventListener("input",render));
@@ -128,8 +137,11 @@ function init(){
 
 function filtered(){
   const q=$("#q").value.toLowerCase(),st=$("#fStatus").value,c=$("#fCountry").value,th=$("#fTheme").value,k=$("#fKind").value,
-        s=$("#fSource").value,w=+$("#fWindow").value,sc=+$("#fScore").value;
+        s=$("#fSource").value,w=+$("#fWindow").value,sc=+$("#fScore").value,nw=$("#fNew").value;
+  const since=nw&&nw!=="latest"?new Date(today-(+nw)*864e5).toISOString().slice(0,10):"";
   return DATA.opportunities.filter(o=>{
+    if(nw==="latest"&&!isNew(o))return false;
+    if(since&&!(o.first_seen>=since))return false;
     if(st==="live"&&!LIVE.includes(o.status))return false;
     if(st&&st!=="live"&&o.status!==st)return false;
     if(c&&!o.countries.includes(c))return false; if(th&&!o.themes.includes(th))return false;
@@ -150,7 +162,8 @@ function kpis(){
   const k=[["Live",O.filter(o=>LIVE.includes(o.status)).length,()=>{$("#fStatus").value="live"}],
     ["Closing soon",O.filter(o=>o.status==="closing_soon").length,()=>{$("#fStatus").value="closing_soon"}],
     ["Forthcoming",O.filter(o=>o.status==="forthcoming").length,()=>{$("#fStatus").value="forthcoming"}],
-    ["New this week",O.filter(o=>o.first_seen>=wk).length,()=>{$("#fStatus").value="";sortK="first_seen";sortDir=-1}],
+    ["New in latest fetch",O.filter(o=>isNew(o)&&LIVE.includes(o.status)).length,()=>{view="list";$("#fNew").value="latest";$("#fStatus").value="live";sortK="score";sortDir=-1}],
+    ["New this week",O.filter(o=>o.first_seen>=wk).length,()=>{view="list";$("#fNew").value="7";$("#fStatus").value="";sortK="first_seen";sortDir=-1}],
     ["In pipeline",O.filter(o=>o.pipeline_stage).length,()=>{view="pipeline"}],
     ["Sources OK",Object.values(DATA.sources).filter(s=>s.enabled!==false&&s.last_ok&&!s.error).length+" / "+Object.values(DATA.sources).filter(s=>s.enabled!==false).length,()=>{view="sources"}]];
   $("#kpis").innerHTML=k.map((x,i)=>`<div class="kpi" data-i="${i}"><b>${x[1]}</b><span>${x[0]}</span></div>`).join("");
@@ -165,7 +178,7 @@ function renderList(){
   const rows=filtered().sort((a,b)=>{let x=a[sortK],y=b[sortK];if(Array.isArray(x)){x=x.join();y=y.join()}
     if(sortK==="deadline"){x=x||"9999";y=y||"9999"} return (x>y?1:x<y?-1:0)*sortDir});
   $("#rows").innerHTML=rows.map(o=>`<tr class="row" data-id="${o.id}"><td>${pill(o.status)}</td><td class="small">${dl(o)}</td>
-    <td><div class="title">${esc(o.title)}</div><div class="small mute">${esc(o.funder||o.source)}${o.funding?" · "+esc(o.funding):""}</div></td>
+    <td><div class="title">${isNew(o)?'<span class="new">NEW</span>':""}${esc(o.title)}</div><div class="small mute">${esc(o.funder||o.source)}${o.funding?" · "+esc(o.funding):""} · first seen ${esc(o.first_seen||"—")}</div></td>
     <td class="small">${esc(o.kind)}</td><td class="small">${o.countries.map(esc).join(", ")||"—"}</td>
     <td>${o.themes.slice(0,3).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</td><td title="${esc(o.score_why||"")}">${o.score}</td>
     <td class="small">${esc(o.pipeline_stage)}</td></tr>`).join("")||`<tr><td colspan=8 class="mute">No opportunities match these filters.</td></tr>`;

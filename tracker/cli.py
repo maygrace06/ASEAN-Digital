@@ -29,6 +29,7 @@ def cmd_run(args) -> int:
     db = store.load_db()
     default_min = int(setting("default_min_score", 30))
     total_new = 0
+    all_added = []
     for cfg in _sources():
         sid = cfg["id"]
         if args.source and sid not in args.source:
@@ -66,6 +67,7 @@ def cmd_run(args) -> int:
                 kept.append(o)
         added = store.merge(db, kept)
         total_new += len(added)
+        all_added += added
         st.update({"last_ok": store.now_iso(), "error": "", "fetched": len(items),
                    "kept": len(kept), "new": len(added), "seconds": round(time.time() - t0, 1),
                    "warnings": src.errors[:5]})
@@ -76,7 +78,18 @@ def cmd_run(args) -> int:
     store.save_state(state)
     export.write_all(db)
     written = reports.write(db)
-    log.info("Database: %d opportunities (%d new). Reports: %s", len(db), total_new, ", ".join(written))
+    # New = added this run AND kept after clean-up (old closed notices that a
+    # source re-sends every day are added then pruned, so they don't count).
+    kept_new = [o for o in all_added if o.id in db]
+    log.info("Database: %d opportunities (%d new). Reports: %s", len(db), len(kept_new), ", ".join(written))
+    # List what is new in this run (not closed), best first
+    fresh = [o for o in kept_new if o.status != "closed"]
+    if fresh:
+        log.info("\nNEW in this fetch (%d, not closed):", len(fresh))
+        for o in sorted(fresh, key=lambda o: -o.score):
+            log.info("  %3d  %-10s  %-18s %s", o.score, o.deadline or "no deadline", o.source[:18], o.title[:80])
+    else:
+        log.info("\nNothing new (still open) in this fetch.")
     return 0
 
 

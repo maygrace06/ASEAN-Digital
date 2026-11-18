@@ -1125,35 +1125,6 @@
   "raw_status": ""
  },
  {
-  "title": "Firm to develop hydro-meteorological forecasting and warning information system",
-  "url": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=51512",
-  "source": "undp_procurement",
-  "kind": "tender",
-  "funder": "UNDP",
-  "summary": "Title Firm to develop hydro-meteorological forecasting and warning information system Ref No UNDP-VNM-02434 UNDP Office/Country UNDP-VNM/VIET NAM Process RFP - Request for proposal Deadline 20-Nov-26 05:51 AM (New York time) Posted 06-Nov-26",
-  "countries": [
-   "Vietnam"
-  ],
-  "themes": [
-   "Digital Government"
-  ],
-  "open_date": null,
-  "deadline": "2026-11-20",
-  "funding": "",
-  "eligibility": "",
-  "requirements": "",
-  "reference": "",
-  "recurring": "",
-  "notes": "",
-  "id": "a3261bf987c7",
-  "status": "closing_soon",
-  "score": 95,
-  "score_why": "ASEAN (Vietnam) +25 · Digital economy: information system +30 · focus topic in title +15 · Consulting/call: RFP +20 · has deadline +5",
-  "first_seen": "2026-11-16",
-  "last_seen": "2026-11-18",
-  "raw_status": ""
- },
- {
   "title": "RFP_Private-Sector Investment&De-risking Measures for Climate-Smart Agriculture",
   "url": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=51025",
   "source": "undp_procurement",
@@ -1288,6 +1259,35 @@
   "status": "closing_soon",
   "score": 95,
   "score_why": "ASEAN (Thailand) +25 · Digital economy: digital public infrastructure +30 · focus topic in title +15 · Consulting/call: RFP +20 · has deadline +5",
+  "first_seen": "2026-11-16",
+  "last_seen": "2026-11-18",
+  "raw_status": ""
+ },
+ {
+  "title": "Firm to develop hydro-meteorological forecasting and warning information system",
+  "url": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=51512",
+  "source": "undp_procurement",
+  "kind": "tender",
+  "funder": "UNDP",
+  "summary": "Title Firm to develop hydro-meteorological forecasting and warning information system Ref No UNDP-VNM-02434,1 UNDP Office/Country UNDP-VNM/VIET NAM Process RFP - Request for proposal Deadline 22-Nov-26 12:51 PM (New York time) Posted 06-Nov-26",
+  "countries": [
+   "Vietnam"
+  ],
+  "themes": [
+   "Digital Government"
+  ],
+  "open_date": null,
+  "deadline": "2026-11-22",
+  "funding": "",
+  "eligibility": "",
+  "requirements": "",
+  "reference": "",
+  "recurring": "",
+  "notes": "",
+  "id": "a3261bf987c7",
+  "status": "closing_soon",
+  "score": 95,
+  "score_why": "ASEAN (Vietnam) +25 · Digital economy: information system +30 · focus topic in title +15 · Consulting/call: RFP +20 · has deadline +5",
   "first_seen": "2026-11-16",
   "last_seen": "2026-11-18",
   "raw_status": ""
@@ -1924,6 +1924,33 @@
   "first_seen": "2026-11-16",
   "last_seen": "2026-11-18",
   "raw_status": "Published"
+ },
+ {
+  "title": "CFPs: A Monitoring System for Grave and Monument Work-Related Activities (Singapore)",
+  "url": "https://www2.fundsforngos.org/environment-2/grant-opportunity-monitoring-system-for-grave-and-monument-work-at-choa/",
+  "source": "fundsforngos_asean",
+  "kind": "grant",
+  "funder": "",
+  "summary": "The National Environment Agency (NEA) of Singapore has announced a grant call under its Technology Translation (T²) Scheme. This initiative seeks to develop, field validate, and operationalize a monitoring and early alert system for activities related to grave and monument work at Choa Chu Kang Cemetery. The deadline for proposal submissions is 21 January 2027. The post CFPs: A Monitoring System for Grave and Monument Work-Related Activities (Singapore) first appeared on fundsforNGOs .",
+  "countries": [
+   "Singapore"
+  ],
+  "themes": [],
+  "open_date": "2026-11-18",
+  "deadline": "2027-01-21",
+  "funding": "",
+  "eligibility": "",
+  "requirements": "",
+  "reference": "",
+  "recurring": "",
+  "notes": "",
+  "id": "9f4eb8157767",
+  "status": "open",
+  "score": 45,
+  "score_why": "ASEAN (Singapore) +25 · Funding: grant +15 · has deadline +5",
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "raw_status": ""
  },
  {
   "title": "Limited Competition: Biospecimen Banks to support NCI National Clinical Trials Network Biospecimen Banks (NCTN Biobanks) and the NCI Early-Phase and Experimental Clinical Trials Biospecimen Bank (EET Biobank) (U24 Clinical Trial Not Allowed)",

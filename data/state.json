@@ -1,8 +1,8 @@
 {
  "sources": {
   "manual": {
-   "last_run": "2026-11-18T11:16:55+07:00",
-   "last_ok": "2026-11-18T11:16:55+07:00",
+   "last_run": "2026-11-18T13:26:12+07:00",
+   "last_ok": "2026-11-18T13:26:12+07:00",
    "error": "",
    "fetched": 3,
    "kept": 3,
@@ -11,113 +11,113 @@
    "warnings": []
   },
   "grants_gov": {
-   "last_run": "2026-11-18T11:16:05+07:00",
-   "last_ok": "2026-11-18T11:16:11+07:00",
+   "last_run": "2026-11-18T13:25:30+07:00",
+   "last_ok": "2026-11-18T13:25:34+07:00",
    "error": "",
    "fetched": 35,
    "kept": 19,
    "new": 0,
-   "seconds": 5.7,
+   "seconds": 4.8,
    "warnings": []
   },
   "eu_portal": {
-   "last_run": "2026-11-18T11:16:11+07:00",
-   "last_ok": "2026-11-18T11:16:28+07:00",
+   "last_run": "2026-11-18T13:25:34+07:00",
+   "last_ok": "2026-11-18T13:25:47+07:00",
    "error": "",
    "fetched": 26,
    "kept": 0,
    "new": 0,
-   "seconds": 16.5,
+   "seconds": 12.7,
    "warnings": []
   },
   "worldbank": {
-   "last_run": "2026-11-18T11:16:28+07:00",
-   "last_ok": "2026-11-18T11:16:43+07:00",
+   "last_run": "2026-11-18T13:25:47+07:00",
+   "last_ok": "2026-11-18T13:26:00+07:00",
    "error": "",
    "fetched": 88,
    "kept": 64,
    "new": 7,
-   "seconds": 15.2,
+   "seconds": 12.9,
    "warnings": []
   },
   "fundsforngos_asean": {
-   "last_run": "2026-11-18T11:16:43+07:00",
-   "last_ok": "2026-11-18T11:16:43+07:00",
+   "last_run": "2026-11-18T13:26:00+07:00",
+   "last_ok": "2026-11-18T13:26:00+07:00",
    "error": "",
    "fetched": 35,
-   "kept": 8,
+   "kept": 9,
    "new": 0,
-   "seconds": 0.6,
+   "seconds": 0.4,
    "warnings": []
   },
   "astnet": {
-   "last_run": "2026-11-18T11:16:53+07:00",
-   "last_ok": "2026-11-18T11:16:53+07:00",
+   "last_run": "2026-11-18T13:26:11+07:00",
+   "last_ok": "2026-11-18T13:26:11+07:00",
    "error": "",
    "fetched": 3,
    "kept": 3,
    "new": 0,
-   "seconds": 0.6,
+   "seconds": 0.4,
    "warnings": []
   },
   "google_news_leads": {
-   "last_run": "2026-11-18T11:16:53+07:00",
-   "last_ok": "2026-11-18T11:16:55+07:00",
+   "last_run": "2026-11-18T13:26:11+07:00",
+   "last_ok": "2026-11-18T13:26:11+07:00",
    "error": "",
    "fetched": 80,
-   "kept": 26,
-   "new": 0,
-   "seconds": 1.9,
-   "warnings": []
-  },
-  "asean_foundation": {
-   "last_run": "2026-11-18T11:16:55+07:00",
-   "last_ok": "2026-11-18T11:16:55+07:00",
-   "error": "",
-   "fetched": 8,
-   "kept": 6,
-   "new": 0,
-   "seconds": 0.5,
-   "warnings": []
-  },
-  "asia_foundation": {
-   "last_run": "2026-11-18T11:16:43+07:00",
-   "last_ok": "2026-11-18T11:16:44+07:00",
-   "error": "",
-   "fetched": 4,
-   "kept": 0,
+   "kept": 27,
    "new": 0,
    "seconds": 0.3,
    "warnings": []
   },
+  "asean_foundation": {
+   "last_run": "2026-11-18T13:26:11+07:00",
+   "last_ok": "2026-11-18T13:26:12+07:00",
+   "error": "",
+   "fetched": 8,
+   "kept": 6,
+   "new": 0,
+   "seconds": 0.3,
+   "warnings": []
+  },
+  "asia_foundation": {
+   "last_run": "2026-11-18T13:26:00+07:00",
+   "last_ok": "2026-11-18T13:26:02+07:00",
+   "error": "",
+   "fetched": 4,
+   "kept": 0,
+   "new": 0,
+   "seconds": 1.9,
+   "warnings": []
+  },
   "opportunity_desk": {
-   "last_run": "2026-11-18T11:16:44+07:00",
-   "last_ok": "2026-11-18T11:16:47+07:00",
+   "last_run": "2026-11-18T13:26:02+07:00",
+   "last_ok": "2026-11-18T13:26:05+07:00",
    "error": "",
    "fetched": 10,
    "kept": 0,
    "new": 0,
-   "seconds": 3.2,
+   "seconds": 2.9,
    "warnings": []
   },
   "undp_procurement": {
-   "last_run": "2026-11-18T11:16:48+07:00",
-   "last_ok": "2026-11-18T11:16:53+07:00",
+   "last_run": "2026-11-18T13:26:07+07:00",
+   "last_ok": "2026-11-18T13:26:11+07:00",
    "error": "",
-   "fetched": 112,
+   "fetched": 116,
    "kept": 25,
    "new": 0,
-   "seconds": 4.2,
+   "seconds": 4.1,
    "warnings": []
   },
   "dt_global": {
-   "last_run": "2026-11-18T11:16:47+07:00",
-   "last_ok": "2026-11-18T11:16:48+07:00",
+   "last_run": "2026-11-18T13:26:05+07:00",
+   "last_ok": "2026-11-18T13:26:07+07:00",
    "error": "",
    "fetched": 21,
    "kept": 5,
    "new": 0,
-   "seconds": 1.5,
+   "seconds": 1.4,
    "warnings": []
   }
  }
