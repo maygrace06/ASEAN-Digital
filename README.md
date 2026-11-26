@@ -43,6 +43,7 @@ Only items that name an ASEAN country or the region are kept.
 [AusTender](https://www.tenders.gov.au/) ·
 [UNGM](https://www.ungm.org/Public/Notice) ·
 [U.S. Mission to ASEAN](https://asean.usmission.gov/) ·
+[Asia Foundation procurement](https://asiafoundation.org/procurement/) ·
 [GeBIZ](https://www.gebiz.gov.sg) ·
 [PhilGEPS](https://notices.philgeps.gov.ph) ·
 [Tetra Tech International Development](https://intdev.tetratech.com.au/)
