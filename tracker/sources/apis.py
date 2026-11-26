@@ -119,6 +119,8 @@ class WorldBank(Source):
                 country = ASEAN_WB_NAMES.get(ctry.lower())
                 if not country:
                     continue  # keep only ASEAN countries
+                if "award" in (n.get("notice_type") or "").lower():
+                    continue  # contract already awarded: nothing to bid on
                 out.append(self.make(
                     title=clean_text(n.get("bid_description") or n.get("project_name") or "", 300),
                     url=self.DETAIL.format(n.get("id")),
