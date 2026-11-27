@@ -1,8 +1,8 @@
 {
  "sources": {
   "manual": {
-   "last_run": "2026-11-26T10:48:03+07:00",
-   "last_ok": "2026-11-26T10:48:03+07:00",
+   "last_run": "2026-11-27T12:05:24+07:00",
+   "last_ok": "2026-11-27T12:05:24+07:00",
    "error": "",
    "fetched": 3,
    "kept": 3,
@@ -11,43 +11,43 @@
    "warnings": []
   },
   "grants_gov": {
-   "last_run": "2026-11-26T10:46:56+07:00",
-   "last_ok": "2026-11-26T10:47:02+07:00",
+   "last_run": "2026-11-27T12:04:56+07:00",
+   "last_ok": "2026-11-27T12:04:58+07:00",
    "error": "",
    "fetched": 34,
    "kept": 19,
    "new": 0,
-   "seconds": 6.3,
+   "seconds": 1.8,
    "warnings": []
   },
   "eu_portal": {
-   "last_run": "2026-11-26T10:47:02+07:00",
-   "last_ok": "2026-11-26T10:47:22+07:00",
+   "last_run": "2026-11-27T12:04:58+07:00",
+   "last_ok": "2026-11-27T12:05:07+07:00",
    "error": "",
-   "fetched": 26,
+   "fetched": 31,
    "kept": 0,
    "new": 0,
-   "seconds": 19.5,
+   "seconds": 9.0,
    "warnings": []
   },
   "worldbank": {
-   "last_run": "2026-11-26T10:47:22+07:00",
-   "last_ok": "2026-11-26T10:47:42+07:00",
+   "last_run": "2026-11-27T12:05:07+07:00",
+   "last_ok": "2026-11-27T12:05:15+07:00",
    "error": "",
-   "fetched": 69,
-   "kept": 50,
-   "new": 9,
-   "seconds": 20.3,
+   "fetched": 57,
+   "kept": 42,
+   "new": 10,
+   "seconds": 8.0,
    "warnings": []
   },
   "fundsforngos_asean": {
-   "last_run": "2026-11-26T10:47:42+07:00",
-   "last_ok": "2026-11-26T10:47:45+07:00",
+   "last_run": "2026-11-27T12:05:15+07:00",
+   "last_ok": "2026-11-27T12:05:15+07:00",
    "error": "",
    "fetched": 35,
    "kept": 7,
    "new": 0,
-   "seconds": 2.7,
+   "seconds": 0.6,
    "warnings": []
   },
   "astnet": {
@@ -61,13 +61,13 @@
    "warnings": []
   },
   "google_news_leads": {
-   "last_run": "2026-11-26T10:47:59+07:00",
-   "last_ok": "2026-11-26T10:48:02+07:00",
+   "last_run": "2026-11-27T12:05:23+07:00",
+   "last_ok": "2026-11-27T12:05:24+07:00",
    "error": "",
-   "fetched": 183,
-   "kept": 43,
-   "new": 29,
-   "seconds": 3.1,
+   "fetched": 99,
+   "kept": 30,
+   "new": 2,
+   "seconds": 1.5,
    "warnings": []
   },
   "asean_foundation": {
@@ -91,33 +91,33 @@
    "warnings": []
   },
   "opportunity_desk": {
-   "last_run": "2026-11-26T10:47:47+07:00",
-   "last_ok": "2026-11-26T10:47:51+07:00",
+   "last_run": "2026-11-27T12:05:15+07:00",
+   "last_ok": "2026-11-27T12:05:18+07:00",
    "error": "",
    "fetched": 10,
    "kept": 0,
    "new": 0,
-   "seconds": 3.8,
+   "seconds": 2.3,
    "warnings": []
   },
   "undp_procurement": {
-   "last_run": "2026-11-26T10:47:53+07:00",
-   "last_ok": "2026-11-26T10:47:58+07:00",
+   "last_run": "2026-11-27T12:05:19+07:00",
+   "last_ok": "2026-11-27T12:05:23+07:00",
    "error": "",
-   "fetched": 110,
-   "kept": 23,
-   "new": 14,
-   "seconds": 5.0,
+   "fetched": 119,
+   "kept": 26,
+   "new": 4,
+   "seconds": 3.5,
    "warnings": []
   },
   "dt_global": {
-   "last_run": "2026-11-26T10:47:51+07:00",
-   "last_ok": "2026-11-26T10:47:53+07:00",
+   "last_run": "2026-11-27T12:05:18+07:00",
+   "last_ok": "2026-11-27T12:05:19+07:00",
    "error": "",
    "fetched": 12,
    "kept": 4,
-   "new": 2,
-   "seconds": 1.8,
+   "new": 0,
+   "seconds": 1.2,
    "warnings": []
   }
  }
